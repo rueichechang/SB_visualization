@@ -41,16 +41,16 @@ KeyMap = {
     "doga": ONE,
     "benko": ONE,
     "vlk": ONE,
-    "patrick": ONE,
-    "steve": ONE,
-    "michael": ONE,
-    "justine": ONE,
-    "xu": ONE,
-    "anhong": ONE,
+    "patrick": TWO,
+    "steve": TWO,
+    "michael": TWO,
+    "justine": TWO,
+    "xu": TWO,
+    "anhong": TWO,
     "obama": ONE,
     "ariel": ONE,
     "laura": ONE,
-    "vrannouncement": TWO,
+    "vrannouncement": FOUR,
     "tableCleaning": THREE,
 }
 
@@ -61,10 +61,12 @@ Categories = {
     "voiceAssistant": VR_FOCUS,
     "whiteCaneStone": RW_FOCUS,
     "whiteCane": RW_FOCUS,
+
     "audiobook": VR_FOCUS,
-    "knocking": RW_SECONDARY,
+    "knocking": RW_FOCUS,
     "announcement": RW_PERIPHERAL,
     "supervisorMessage": VR_PERIPHERAL,
+
     "doga": RW_FOCUS,
     "benko": RW_FOCUS,
     "vlk": RW_FOCUS,
@@ -81,13 +83,44 @@ Categories = {
     "tableCleaning": RW_PERIPHERAL,
 }
 
+def returnRealName(name):
+    if "whiteCane" in name: name = "whiteCane"
+    if "cartoonDrilling" in name: name = "constructionNoise"
+
+    if "doga" in name: name = "anhong"
+    if "anhong" in name: name = "anhong"
+    if "benko" in name: name = "benko"
+    if "vlk" in name: name = "vlk"
+    if "patrick" in name: name = "patrick"
+    if "steve" in name: name = "steve"
+    if "michael" in name: name = "michael"
+    if "justine" in name: name = "justine"
+    if "xu" in name: name = "xu"
+    if "obama" in name: name = "obama"
+    if "ariel" in name: name = "ariel"
+    if "laura" in name: name = "laura"    
+    if "sentence" in name: name = "audiobook"
+    if "supervisorMessage" in name: name = "supervisorMessage"
+
+    return name
+
+
+
 colors = {
     "RW_FOCUS": "#34a0a4",
-    "RW_SECONDARY": "#76c893",
-    "RW_PERIPHERAL": "#b5e48c",
+    # "RW_SECONDARY": "#76c893",
+    "RW_PERIPHERAL": "#76c893",
+
     "VR_FOCUS": "#dc2f02",
-    "VR_SECONDARY": "#f48c06",
-    "VR_PERIPHERAL": "#ffba08",
+    # "VR_SECONDARY": "#f48c06",
+    "VR_PERIPHERAL": "#f48c06",
+}
+
+lineColors={
+    "1": colors["RW_FOCUS"],
+    "2": colors["VR_FOCUS"],
+    "3": colors["RW_PERIPHERAL"],
+    "4": colors["VR_PERIPHERAL"]
 }
 
 # for event in eventToPlot:
@@ -172,7 +205,7 @@ class EachTrialResult:
         return self.HIT_CORRECT_COUNT
 
     def getMissTouchCount(self):
-        print("Number of Touch Event: ", self.MISS_TOUCH_COUNT)
+        print("Number of Miss Touch: ", self.MISS_TOUCH_COUNT)
         return self.MISS_TOUCH_COUNT
 
     def getMissEventCount(self):
@@ -214,10 +247,11 @@ class EachTrialResult:
             while len(EventLogs):
                 for eventLog in EventLogs:
                     clipName = eventLog["clipName"]
-                    if "whiteCane" in clipName:
-                        clipName = "whiteCane"
-                    if "sentence" in clipName:
-                        clipName = "audiobook"
+                    clipName = returnRealName(clipName)
+                    # if "whiteCane" in clipName:
+                    #     clipName = "whiteCane"
+                    # if "sentence" in clipName:
+                    #     clipName = "audiobook"
                     if clipName not in df:
                         df[clipName] = {}
 
@@ -258,9 +292,10 @@ class EachTrialResult:
 
             for touchLog in TouchLogs:
                 touchTime = pd.to_datetime(float(touchLog["touchTime"]), unit="s")
-
-                lineColor = "blue" if touchLog["singleOrDouble"] == "single" else "red"
-
+                touchEvent = touchLog["singleOrDouble"]
+                # lineColor = "blue" if touchLog["singleOrDouble"] == "single" else "red"
+                lineColor = lineColors[touchEvent]
+                
                 fig.add_trace(
                     go.Scatter(
                         x=[touchTime, touchTime],
@@ -285,17 +320,105 @@ class EachTrialResult:
             else: fig.write_image(output_path)
             # pio.write_image(fig, output_path, format="png")
 
+    def calculateResultsByKey(self):
+        with open(self.path) as json_file:
+            data = json.load(json_file)
+            TouchLogs = data["TouchLogs"]
+            # EventLogs = data["EventLogs"]
+            eventToPlot = copy.deepcopy(self.eventToPlot)
+        while len(TouchLogs):
+            for touchLog in TouchLogs:
+                touchTime = touchLog["touchTime"]
+                touchEvent = touchLog["singleOrDouble"]
+                playingObjects = [returnRealName(x) for x in touchLog["playingObjects"]]
+
+                if len(playingObjects) ==0 : 
+                    self.MISS_TOUCH_COUNT += 1
+                    TouchLogs.remove(touchLog)
+                    print("------------No Hit------------\n")
+                    print(touchLog)
+                    print("==============================\n\n")
+                    break
+
+                else:
+                    # check if hit wrong first
+                    collectedTouchEvents = [KeyMap[x] for x in playingObjects]
+                    # print(collectedTouchEvents)
+                    # print("\n")
+                    if touchEvent not in collectedTouchEvents:
+                        self.HIT_ERROR_COUNT +=1
+                        TouchLogs.remove(touchLog)
+                        break
+                    for playingObject in playingObjects:
+                        # typeOfTask = Categories[playingObject]
+                        # print(KeyMap[playingObject],touchEvent)
+                        # print("\n")
+                        if KeyMap[playingObject] == touchEvent:
+                            #find event first, if not then break, yes then continue
+                            # basically this is to catch multiple inputs on a single event 
+                            eventStillExist = False
+                            for event in eventToPlot:
+                                start = datetime_to_float(event["Start"])
+                                end   = datetime_to_float(event["Finish"])
+                                clipName = event["Task"]
+                                category = event["Resource"]
+                                if (
+                                    touchTime >= start 
+                                    and touchTime <= end 
+                                    and playingObject == clipName
+                                ): 
+                                    eventStillExist = True
+                            
+                            if not eventStillExist:
+                                self.HIT_ERROR_COUNT +=1
+                                TouchLogs.remove(touchLog)
+                                break
+                            for event in eventToPlot:
+                                start = datetime_to_float(event["Start"])
+                                end   = datetime_to_float(event["Finish"])
+                                clipName = event["Task"]
+                                category = event["Resource"]
+                                print("*****************************")
+                                print(playingObject,touchEvent,touchTime)
+                                print(event)
+                                print("\n")
+                                print("*****************************")
+                                if (
+                                    touchTime >= start 
+                                    and touchTime <= end 
+                                    and playingObject == clipName
+                                ):
+                                    delay = abs(
+                                        touchTime - datetime_to_float(event["Start"])
+                                    )
+                                    self.addDelayBasedOnType(category, delay)
+                                    self.HIT_CORRECT_COUNT += 1
+                                    self.countOnType(category)
+
+                                    print("-----------Event----------\n")
+                                    print(event)
+                                    print("-----------Touchlog-----------\n")
+                                    print(touchLog)
+                                    print("==============================\n\n\n")
+
+                                    TouchLogs.remove(touchLog)
+                                    eventToPlot.remove(event)
+                                    break
+                            break
+        self.MISS_EVENT_COUNT = len(eventToPlot)
+                
+
     def calculateResults(self):
         with open(self.path) as json_file:
             data = json.load(json_file)
             TouchLogs = data["TouchLogs"]
-            EventLogs = data["EventLogs"]
+            # EventLogs = data["EventLogs"]
             eventToPlot = copy.deepcopy(self.eventToPlot)
 
         while len(TouchLogs):
             for touchLog in TouchLogs:
                 touchTime = touchLog["touchTime"]
-                singelORdouble = touchLog["singleOrDouble"]
+                touchEvents = touchLog["singleOrDouble"]
                 candidateEvents = []
 
                 for event in eventToPlot:
@@ -314,9 +437,9 @@ class EachTrialResult:
                 elif len(candidateEvents) == 1:
                     typeOfTask = candidateEvents[0]["Resource"]
                     if (
-                        singelORdouble == "single"
+                        touchEvents == "single"
                         and "RW" in typeOfTask
-                        or singelORdouble == "double"
+                        or touchEvents == "double"
                         and "VR" in typeOfTask
                     ):
                         self.HIT_CORRECT_COUNT += 1
@@ -346,7 +469,7 @@ class EachTrialResult:
                         event for event in candidateEvents if "VR" in event["Resource"]
                     ]
 
-                    if singelORdouble == "single" and len(RWEvents) > 0:
+                    if touchEvents == "single" and len(RWEvents) > 0:
                         TEMP_DIFF = float("inf")
                         TARGET_START = ""
                         for RWEvent in RWEvents:
@@ -375,7 +498,7 @@ class EachTrialResult:
                         TouchLogs.remove(touchLog)
                         eventToPlot.remove(candidateEvent)
 
-                    elif singelORdouble == "double" and len(VREvents) > 0:
+                    elif touchEvents == "double" and len(VREvents) > 0:
                         TEMP_DIFF = float("inf")
                         TARGET_START = ""
                         for VREvent in VREvents:
@@ -418,11 +541,13 @@ class EachTrialResult:
 
             # print(len(candidateEvents))
 
-
-def generate_visualization(input_path, output_path):
+    
+def generate_visualization(input_path, output_path=""):
     trial = EachTrialResult(input_path)
-    trial.calculateResults()
     trial.makePlot(output_path=output_path)
+    trial.calculateResultsByKey()
+    # trial.calculateResults()
+    
 
     trial.getOverallAverageDelay()
     trial.getMissEventCount()
@@ -433,7 +558,9 @@ def generate_visualization(input_path, output_path):
     trial.getHitAccuracy()
 
 
-if __name__ == "__main__":
-    input_path = "/Users/rueichechang/UnityProject/My project/Assets/StreamingAssets/OutputJson.json"
-    trial = EachTrialResult(input_path)
-    trial.calculateResults()
+# if __name__ == "__main__":
+#     input_path = "/Users/rueichechang/UnityProject/My project/Assets/StreamingAssets/OutputJson.json"
+#     generate_visualization(input_path)
+    # trial = EachTrialResult(input_path)
+    # trial.calculateResultsByKey()
+    # trial.makePlot()
