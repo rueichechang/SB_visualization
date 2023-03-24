@@ -21,9 +21,7 @@ TWO = "2"
 THREE = "3"
 FOUR = "4"
 
-GestureMap ={
-
-}
+GestureMap = {}
 
 KeyMap = {
     "whiteCaneStone": ONE,
@@ -32,12 +30,10 @@ KeyMap = {
     "constructionNoise": THREE,
     "cartoonDrilling": THREE,
     "voiceMessage": FOUR,
-
     "audiobook": ONE,
     "knocking": TWO,
     "announcement": THREE,
     "supervisorMessage": FOUR,
-
     "doga": ONE,
     "benko": ONE,
     "vlk": ONE,
@@ -61,12 +57,10 @@ Categories = {
     "voiceAssistant": VR_FOCUS,
     "whiteCaneStone": RW_FOCUS,
     "whiteCane": RW_FOCUS,
-
     "audiobook": VR_FOCUS,
     "knocking": RW_FOCUS,
     "announcement": RW_PERIPHERAL,
     "supervisorMessage": VR_PERIPHERAL,
-
     "doga": RW_FOCUS,
     "benko": RW_FOCUS,
     "vlk": RW_FOCUS,
@@ -83,45 +77,61 @@ Categories = {
     "tableCleaning": RW_PERIPHERAL,
 }
 
-def returnRealName(name):
-    if "whiteCane" in name: name = "whiteCane"
-    if "cartoonDrilling" in name: name = "constructionNoise"
 
-    if "doga" in name: name = "anhong"
-    if "anhong" in name: name = "anhong"
-    if "benko" in name: name = "benko"
-    if "vlk" in name: name = "vlk"
-    if "patrick" in name: name = "patrick"
-    if "steve" in name: name = "steve"
-    if "michael" in name: name = "michael"
-    if "justine" in name: name = "justine"
-    if "xu" in name: name = "xu"
-    if "obama" in name: name = "obama"
-    if "ariel" in name: name = "ariel"
-    if "laura" in name: name = "laura"    
-    if "sentence" in name: name = "audiobook"
-    if "supervisorMessage" in name: name = "supervisorMessage"
-    if "vrannouncement" in name: name = "vrannouncement"
+def returnRealName(name):
+    if "whiteCane" in name:
+        name = "whiteCane"
+    if "cartoonDrilling" in name:
+        name = "constructionNoise"
+
+    if "doga" in name:
+        name = "anhong"
+    if "anhong" in name:
+        name = "anhong"
+    if "benko" in name:
+        name = "benko"
+    if "vlk" in name:
+        name = "vlk"
+    if "patrick" in name:
+        name = "patrick"
+    if "steve" in name:
+        name = "steve"
+    if "michael" in name:
+        name = "michael"
+    if "justine" in name:
+        name = "justine"
+    if "xu" in name:
+        name = "xu"
+    if "obama" in name:
+        name = "obama"
+    if "ariel" in name:
+        name = "ariel"
+    if "laura" in name:
+        name = "laura"
+    if "sentence" in name:
+        name = "audiobook"
+    if "supervisorMessage" in name:
+        name = "supervisorMessage"
+    if "vrannouncement" in name:
+        name = "vrannouncement"
 
     return name
-
 
 
 colors = {
     "RW_FOCUS": "#34a0a4",
     # "RW_SECONDARY": "#76c893",
     "RW_PERIPHERAL": "#76c893",
-
     "VR_FOCUS": "#dc2f02",
     # "VR_SECONDARY": "#f48c06",
     "VR_PERIPHERAL": "#f48c06",
 }
 
-lineColors={
+lineColors = {
     "1": colors["RW_FOCUS"],
     "2": colors["VR_FOCUS"],
     "3": colors["RW_PERIPHERAL"],
-    "4": colors["VR_PERIPHERAL"]
+    "4": colors["VR_PERIPHERAL"],
 }
 
 # for event in eventToPlot:
@@ -187,6 +197,7 @@ class EachTrialResult:
     def getHitAccuracy(self):
         number = self.getTotalNumOfEvents()
         accuracy = self.HIT_CORRECT_COUNT / number
+        file_entry.write("Hit Accuracy: " + accuracy)
         print("Hit Accuracy: ", accuracy)
         return accuracy
 
@@ -195,6 +206,7 @@ class EachTrialResult:
         for i in self.SUMS:
             number += self.SUMS[i]
         print("Total number of event is: ", number)
+        file_entry.write("Total number of event is: " + number)
         return number
 
     def getHitErrorCount(self):
@@ -296,7 +308,7 @@ class EachTrialResult:
                 touchEvent = touchLog["singleOrDouble"]
                 # lineColor = "blue" if touchLog["singleOrDouble"] == "single" else "red"
                 lineColor = lineColors[touchEvent]
-                
+
                 fig.add_trace(
                     go.Scatter(
                         x=[touchTime, touchTime],
@@ -316,9 +328,11 @@ class EachTrialResult:
                 #                 showlegend = False
                 #             )
                 #         )
-            if output_path == "": fig.show()
+            if output_path == "":
+                fig.show()
             # fig.write_html()
-            else: fig.write_image(output_path)
+            else:
+                fig.write_image(output_path)
             # pio.write_image(fig, output_path, format="png")
 
     def calculateResultsByKey(self):
@@ -333,7 +347,7 @@ class EachTrialResult:
                 touchEvent = touchLog["singleOrDouble"]
                 playingObjects = [returnRealName(x) for x in touchLog["playingObjects"]]
 
-                if len(playingObjects) ==0 : 
+                if len(playingObjects) == 0:
                     self.MISS_TOUCH_COUNT += 1
                     TouchLogs.remove(touchLog)
                     print("------------No Hit------------\n")
@@ -347,7 +361,7 @@ class EachTrialResult:
                     # print(collectedTouchEvents)
                     # print("\n")
                     if touchEvent not in collectedTouchEvents:
-                        self.HIT_ERROR_COUNT +=1
+                        self.HIT_ERROR_COUNT += 1
                         TouchLogs.remove(touchLog)
                         break
                     for playingObject in playingObjects:
@@ -355,38 +369,38 @@ class EachTrialResult:
                         # print(KeyMap[playingObject],touchEvent)
                         # print("\n")
                         if KeyMap[playingObject] == touchEvent:
-                            #find event first, if not then break, yes then continue
-                            # basically this is to catch multiple inputs on a single event 
+                            # find event first, if not then break, yes then continue
+                            # basically this is to catch multiple inputs on a single event
                             eventStillExist = False
                             for event in eventToPlot:
                                 start = datetime_to_float(event["Start"])
-                                end   = datetime_to_float(event["Finish"])
+                                end = datetime_to_float(event["Finish"])
                                 clipName = event["Task"]
                                 category = event["Resource"]
                                 if (
-                                    touchTime >= start 
-                                    and touchTime <= end 
+                                    touchTime >= start
+                                    and touchTime <= end
                                     and playingObject == clipName
-                                ): 
+                                ):
                                     eventStillExist = True
-                            
+
                             if not eventStillExist:
-                                self.HIT_ERROR_COUNT +=1
+                                self.HIT_ERROR_COUNT += 1
                                 TouchLogs.remove(touchLog)
                                 break
                             for event in eventToPlot:
                                 start = datetime_to_float(event["Start"])
-                                end   = datetime_to_float(event["Finish"])
+                                end = datetime_to_float(event["Finish"])
                                 clipName = event["Task"]
                                 category = event["Resource"]
                                 print("*****************************")
-                                print(playingObject,touchEvent,touchTime)
+                                print(playingObject, touchEvent, touchTime)
                                 print(event)
                                 print("\n")
                                 print("*****************************")
                                 if (
-                                    touchTime >= start 
-                                    and touchTime <= end 
+                                    touchTime >= start
+                                    and touchTime <= end
                                     and playingObject == clipName
                                 ):
                                     delay = abs(
@@ -407,7 +421,6 @@ class EachTrialResult:
                                     break
                             break
         self.MISS_EVENT_COUNT = len(eventToPlot)
-                
 
     def calculateResults(self):
         with open(self.path) as json_file:
@@ -542,13 +555,12 @@ class EachTrialResult:
 
             # print(len(candidateEvents))
 
-    
+
 def generate_visualization(input_path, output_path=""):
     trial = EachTrialResult(input_path)
     trial.makePlot(output_path=output_path)
     trial.calculateResultsByKey()
     # trial.calculateResults()
-    
 
     trial.getOverallAverageDelay()
     trial.getMissEventCount()
@@ -561,7 +573,9 @@ def generate_visualization(input_path, output_path=""):
 
 if __name__ == "__main__":
     input_path = "/Users/rueichechang/UnityProject/My project/Assets/StreamingAssets/OutputJson.json"
+
     generate_visualization(input_path)
+
     # trial = EachTrialResult(input_path)
     # trial.calculateResultsByKey()
     # trial.makePlot()
