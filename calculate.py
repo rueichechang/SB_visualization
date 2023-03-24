@@ -101,6 +101,7 @@ def returnRealName(name):
     if "laura" in name: name = "laura"    
     if "sentence" in name: name = "audiobook"
     if "supervisorMessage" in name: name = "supervisorMessage"
+    if "vrannouncement" in name: name = "vrannouncement"
 
     return name
 
@@ -558,9 +559,9 @@ def generate_visualization(input_path, output_path=""):
     trial.getHitAccuracy()
 
 
-# if __name__ == "__main__":
-#     input_path = "/Users/rueichechang/UnityProject/My project/Assets/StreamingAssets/OutputJson.json"
-#     generate_visualization(input_path)
+if __name__ == "__main__":
+    input_path = "/Users/rueichechang/UnityProject/My project/Assets/StreamingAssets/OutputJson.json"
+    generate_visualization(input_path)
     # trial = EachTrialResult(input_path)
     # trial.calculateResultsByKey()
     # trial.makePlot()
