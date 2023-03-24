@@ -1,4 +1,4 @@
 #! usr/bin/bash
 pip3 install -r requirements.txt
-rm -rf UnityLoggers/
+rm -rf Unity_Loggers/
 python3 main.py
