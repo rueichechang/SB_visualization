@@ -197,7 +197,6 @@ class EachTrialResult:
     def getHitAccuracy(self):
         number = self.getTotalNumOfEvents()
         accuracy = self.HIT_CORRECT_COUNT / number
-        file_entry.write("Hit Accuracy: " + accuracy)
         print("Hit Accuracy: ", accuracy)
         return accuracy
 
@@ -206,7 +205,6 @@ class EachTrialResult:
         for i in self.SUMS:
             number += self.SUMS[i]
         print("Total number of event is: ", number)
-        file_entry.write("Total number of event is: " + number)
         return number
 
     def getHitErrorCount(self):
