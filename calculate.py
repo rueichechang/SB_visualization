@@ -30,10 +30,12 @@ KeyMap = {
     "constructionNoise": THREE,
     "cartoonDrilling": THREE,
     "voiceMessage": FOUR,
+
     "audiobook": ONE,
     "knocking": TWO,
     "announcement": THREE,
     "supervisorMessage": FOUR,
+    
     "doga": ONE,
     "benko": ONE,
     "vlk": ONE,
