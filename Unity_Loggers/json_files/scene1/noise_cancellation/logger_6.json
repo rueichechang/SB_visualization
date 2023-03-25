@@ -220,66 +220,80 @@
         {
             "objectName": "constructionNoise1",
             "clipName": "constructionNoise",
-            "x": -258.291077,
+            "x": -256.143921,
             "y": 70.19499,
             "z": 15.4999943
         },
         {
             "objectName": "constructionNoise2",
             "clipName": "constructionNoise",
-            "x": -282.1129,
+            "x": -296.733643,
             "y": 70.19499,
             "z": 15.4999943
         },
         {
             "objectName": "constructionNoise3",
             "clipName": "constructionNoise",
-            "x": -306.401367,
+            "x": -325.109375,
             "y": 70.19499,
             "z": 15.4999943
         },
         {
             "objectName": "constructionNoise4",
             "clipName": "constructionNoise",
-            "x": -332.7943,
+            "x": -354.1955,
             "y": 70.19499,
             "z": 15.4999943
         },
         {
             "objectName": "constructionNoise5",
             "clipName": "constructionNoise",
-            "x": -355.175964,
+            "x": -379.872131,
             "y": 70.19499,
             "z": 15.4999943
         }
     ],
     "EventLogs": [
         {
-            "objectName": "voiceAssistant",
-            "clipName": "voiceAssistant",
+            "objectName": "constructionNoise1",
+            "clipName": "constructionNoise",
             "audioIsLoop": false,
-            "distanceToPlayer": 2.46000671,
-            "happenPlayerPos": -248.299652,
-            "happenTime": 7.28729534,
+            "distanceToPlayer": 8.728406,
+            "happenPlayerPos": -247.716019,
+            "happenTime": 7.053833,
             "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -250.759659,
-            "y": 69.89,
+            "volume": 0.099999994,
+            "x": -256.143921,
+            "y": 70.19499,
+            "z": 15.4999943,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -257.799957,
+            "happenTime": 11.0874939,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -259.049957,
+            "y": 64.89,
             "z": 17.75,
             "enterOrExit": "enter"
         },
         {
-            "objectName": "constructionNoise1",
-            "clipName": "constructionNoise",
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
             "audioIsLoop": false,
-            "distanceToPlayer": 8.789654,
-            "happenPlayerPos": -249.799759,
-            "happenTime": 7.88733864,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -258.216766,
+            "happenTime": 11.2541809,
             "clipTime": 0.0,
             "volume": 0.5,
-            "x": -258.291077,
-            "y": 70.19499,
-            "z": 15.4999943,
+            "x": -258.216766,
+            "y": 69.89,
+            "z": 17.75,
             "enterOrExit": "enter"
         },
         {
@@ -287,69 +301,69 @@
             "clipName": "voiceAssistant",
             "audioIsLoop": false,
             "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -253.63327,
-            "happenTime": 9.420726,
-            "clipTime": 2.112,
-            "volume": 0.4,
-            "x": -256.093262,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -257.6334,
-            "happenTime": 11.0209188,
+            "happenPlayerPos": -260.9669,
+            "happenTime": 12.354248,
             "clipTime": 0.0,
             "volume": 0.5,
-            "x": -258.8834,
-            "y": 64.89,
+            "x": -263.42688,
+            "y": 69.89,
             "z": 17.75,
             "enterOrExit": "enter"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -263.717255,
-            "happenTime": 13.4544783,
-            "clipTime": 1.19466662,
-            "volume": 0.5,
-            "x": -264.967255,
-            "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
         },
         {
             "objectName": "voiceMessage",
             "clipName": "voiceMessage",
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
-            "happenPlayerPos": -264.300568,
-            "happenTime": 13.6877661,
+            "happenPlayerPos": -262.63385,
+            "happenTime": 13.0209656,
             "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -264.300568,
+            "volume": 0.5,
+            "x": -262.63385,
             "y": 69.89,
             "z": 17.75,
-            "enterOrExit": "enter"
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -263.8839,
+            "happenTime": 13.5209961,
+            "clipTime": 1.19466662,
+            "volume": 0.099999994,
+            "x": -265.1339,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
         },
         {
             "objectName": "constructionNoise1",
             "clipName": "constructionNoise",
             "audioIsLoop": false,
-            "distanceToPlayer": 9.049227,
-            "happenPlayerPos": -267.0508,
-            "happenTime": 14.7878866,
+            "distanceToPlayer": 9.110745,
+            "happenPlayerPos": -264.9672,
+            "happenTime": 13.9543457,
             "clipTime": 6.86933327,
-            "volume": 0.5,
-            "x": -258.291077,
+            "volume": 0.099999994,
+            "x": -256.143921,
             "y": 70.19499,
             "z": 15.4999943,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "voiceAssistant",
+            "clipName": "voiceAssistant",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.45999146,
+            "happenPlayerPos": -266.300751,
+            "happenTime": 14.4877625,
+            "clipTime": 2.112,
+            "volume": 0.5,
+            "x": -268.760742,
+            "y": 69.89,
+            "z": 17.75,
             "enterOrExit": "exit"
         },
         {
@@ -357,11 +371,137 @@
             "clipName": "voiceMessage",
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
-            "happenPlayerPos": -268.717438,
-            "happenTime": 15.45457,
+            "happenPlayerPos": -271.217621,
+            "happenTime": 16.4544983,
             "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -268.717438,
+            "volume": 0.5,
+            "x": -271.217621,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceAssistant",
+            "clipName": "voiceAssistant",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.45999146,
+            "happenPlayerPos": -272.2178,
+            "happenTime": 16.8545837,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -274.6778,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -275.634552,
+            "happenTime": 18.221344,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -275.634552,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "voiceAssistant",
+            "clipName": "voiceAssistant",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.45999146,
+            "happenPlayerPos": -277.551331,
+            "happenTime": 18.9880981,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -280.011322,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -279.384674,
+            "happenTime": 19.7214661,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -280.634674,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -285.468719,
+            "happenTime": 22.1549377,
+            "clipTime": 1.19466662,
+            "volume": 0.099999994,
+            "x": -286.718719,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "constructionNoise2",
+            "clipName": "constructionNoise",
+            "audioIsLoop": false,
+            "distanceToPlayer": 9.458316,
+            "happenPlayerPos": -287.5519,
+            "happenTime": 22.9883728,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -296.733643,
+            "y": 70.19499,
+            "z": 15.4999943,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -300.219635,
+            "happenTime": 28.0555115,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -300.219635,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -301.0531,
+            "happenTime": 28.3888855,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -302.3031,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -304.636871,
+            "happenTime": 29.8222961,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -304.636871,
             "y": 69.89,
             "z": 17.75,
             "enterOrExit": "exit"
@@ -370,83 +510,27 @@
             "objectName": "constructionNoise2",
             "clipName": "constructionNoise",
             "audioIsLoop": false,
-            "distanceToPlayer": 9.180541,
-            "happenPlayerPos": -273.2176,
-            "happenTime": 17.2547455,
+            "distanceToPlayer": 8.383085,
+            "happenPlayerPos": -304.803375,
+            "happenTime": 29.8889465,
             "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -282.1129,
+            "volume": 0.099999994,
+            "x": -296.733643,
             "y": 70.19499,
             "z": 15.4999943,
-            "enterOrExit": "enter"
+            "enterOrExit": "exit"
         },
         {
             "objectName": "whiteCane",
             "clipName": "whiteCaneStone",
             "audioIsLoop": false,
             "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -282.385071,
-            "happenTime": 20.92165,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -283.635071,
-            "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -287.635651,
-            "happenTime": 23.0218315,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -287.635651,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -288.469147,
-            "happenTime": 23.3552055,
+            "happenPlayerPos": -307.137,
+            "happenTime": 30.8222961,
             "clipTime": 1.19466662,
-            "volume": 0.5,
-            "x": -289.719147,
+            "volume": 0.099999994,
+            "x": -308.387,
             "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "constructionNoise2",
-            "clipName": "constructionNoise",
-            "audioIsLoop": false,
-            "distanceToPlayer": 8.659253,
-            "happenPlayerPos": -290.469177,
-            "happenTime": 24.155201,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -282.1129,
-            "y": 70.19499,
-            "z": 15.4999943,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -292.0527,
-            "happenTime": 24.7885857,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -292.0527,
-            "y": 69.89,
             "z": 17.75,
             "enterOrExit": "exit"
         },
@@ -455,11 +539,67 @@
             "clipName": "voiceAssistant",
             "audioIsLoop": false,
             "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -294.71936,
-            "happenTime": 25.8553543,
+            "happenPlayerPos": -307.303284,
+            "happenTime": 30.8890076,
             "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -297.179352,
+            "volume": 0.5,
+            "x": -309.763275,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceAssistant",
+            "clipName": "voiceAssistant",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.45999146,
+            "happenPlayerPos": -312.637238,
+            "happenTime": 33.02243,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -315.097229,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "constructionNoise3",
+            "clipName": "constructionNoise",
+            "audioIsLoop": false,
+            "distanceToPlayer": 9.983464,
+            "happenPlayerPos": -315.387543,
+            "happenTime": 34.1225281,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -325.109375,
+            "y": 70.19499,
+            "z": 15.4999943,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -328.888672,
+            "happenTime": 39.52292,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -330.138672,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -332.638733,
+            "happenTime": 41.0231628,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -332.638733,
             "y": 69.89,
             "z": 17.75,
             "enterOrExit": "enter"
@@ -468,26 +608,54 @@
             "objectName": "constructionNoise3",
             "clipName": "constructionNoise",
             "audioIsLoop": false,
-            "distanceToPlayer": 9.62039,
-            "happenPlayerPos": -297.052765,
-            "happenTime": 26.78873,
+            "distanceToPlayer": 7.864272,
+            "happenPlayerPos": -332.638733,
+            "happenTime": 41.0231628,
             "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -306.401367,
+            "volume": 0.099999994,
+            "x": -325.109375,
             "y": 70.19499,
             "z": 15.4999943,
-            "enterOrExit": "enter"
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -334.9722,
+            "happenTime": 41.95639,
+            "clipTime": 1.19466662,
+            "volume": 0.099999994,
+            "x": -336.2222,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
         },
         {
             "objectName": "voiceAssistant",
             "clipName": "voiceAssistant",
             "audioIsLoop": false,
             "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -300.053741,
-            "happenTime": 27.9888268,
+            "happenPlayerPos": -336.888916,
+            "happenTime": 42.723175,
             "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -302.513733,
+            "volume": 0.5,
+            "x": -339.3489,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -337.05603,
+            "happenTime": 42.7898865,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -337.05603,
             "y": 69.89,
             "z": 17.75,
             "enterOrExit": "exit"
@@ -497,137 +665,11 @@
             "clipName": "voiceAssistant",
             "audioIsLoop": false,
             "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -308.970581,
-            "happenTime": 31.5557861,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -311.430573,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "constructionNoise3",
-            "clipName": "constructionNoise",
-            "audioIsLoop": false,
-            "distanceToPlayer": 8.222694,
-            "happenPlayerPos": -314.304352,
-            "happenTime": 33.6892471,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -306.401367,
-            "y": 70.19499,
-            "z": 15.4999943,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "voiceAssistant",
-            "clipName": "voiceAssistant",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -314.304352,
-            "happenTime": 33.6892471,
+            "happenPlayerPos": -342.2229,
+            "happenTime": 44.8565979,
             "clipTime": 2.112,
-            "volume": 0.4,
-            "x": -316.764343,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -316.387756,
-            "happenTime": 34.52267,
-            "clipTime": 0.0,
             "volume": 0.5,
-            "x": -317.637756,
-            "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -320.3883,
-            "happenTime": 36.1229,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -320.3883,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -322.471649,
-            "happenTime": 36.9564,
-            "clipTime": 1.152,
-            "volume": 0.5,
-            "x": -323.721649,
-            "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "constructionNoise4",
-            "clipName": "constructionNoise",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.0815887,
-            "happenPlayerPos": -322.971741,
-            "happenTime": 37.1563873,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -332.7943,
-            "y": 70.19499,
-            "z": 15.4999943,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -324.805817,
-            "happenTime": 37.8896523,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -324.805817,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -326.472046,
-            "happenTime": 38.55641,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -326.472046,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -330.88913,
-            "happenTime": 40.32323,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -330.88913,
+            "x": -344.6829,
             "y": 69.89,
             "z": 17.75,
             "enterOrExit": "exit"
@@ -636,42 +678,14 @@
             "objectName": "constructionNoise4",
             "clipName": "constructionNoise",
             "audioIsLoop": false,
-            "distanceToPlayer": 7.767411,
-            "happenPlayerPos": -340.222443,
-            "happenTime": 44.0566444,
+            "distanceToPlayer": 10.4716339,
+            "happenPlayerPos": -343.973,
+            "happenTime": 45.5567322,
             "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -332.7943,
+            "volume": 0.099999994,
+            "x": -354.1955,
             "y": 70.19499,
             "z": 15.4999943,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "constructionNoise5",
-            "clipName": "constructionNoise",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.4524488,
-            "happenPlayerPos": -344.9731,
-            "happenTime": 45.9568024,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -355.175964,
-            "y": 70.19499,
-            "z": 15.4999943,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "voiceAssistant",
-            "clipName": "voiceAssistant",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -345.473236,
-            "happenTime": 46.1569252,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -347.933228,
-            "y": 69.89,
-            "z": 17.75,
             "enterOrExit": "enter"
         },
         {
@@ -679,12 +693,82 @@
             "clipName": "whiteCaneStone",
             "audioIsLoop": false,
             "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -350.485657,
-            "happenTime": 48.1569557,
+            "happenPlayerPos": -359.807556,
+            "happenTime": 51.8906555,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -361.057556,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "constructionNoise4",
+            "clipName": "constructionNoise",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.38662767,
+            "happenPlayerPos": -361.2245,
+            "happenTime": 52.4571838,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -354.1955,
+            "y": 70.19499,
+            "z": 15.4999943,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "whiteCane",
+            "clipName": "whiteCaneStone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.153882,
+            "happenPlayerPos": -365.891724,
+            "happenTime": 54.32419,
+            "clipTime": 1.19466662,
+            "volume": 0.099999994,
+            "x": -367.141724,
+            "y": 64.89,
+            "z": 17.75,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "constructionNoise5",
+            "clipName": "constructionNoise",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.8865728,
+            "happenPlayerPos": -369.224976,
+            "happenTime": 55.6576233,
+            "clipTime": 0.0,
+            "volume": 0.099999994,
+            "x": -379.872131,
+            "y": 70.19499,
+            "z": 15.4999943,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceAssistant",
+            "clipName": "voiceAssistant",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.45999146,
+            "happenPlayerPos": -376.559235,
+            "happenTime": 58.5917053,
             "clipTime": 0.0,
             "volume": 0.5,
-            "x": -351.735657,
-            "y": 64.89,
+            "x": -379.019226,
+            "y": 69.89,
+            "z": 17.75,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -381.892853,
+            "happenTime": 60.72464,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -381.892853,
+            "y": 69.89,
             "z": 17.75,
             "enterOrExit": "enter"
         },
@@ -693,321 +777,220 @@
             "clipName": "voiceAssistant",
             "audioIsLoop": false,
             "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -350.8072,
-            "happenTime": 48.2903976,
+            "happenPlayerPos": -381.892853,
+            "happenTime": 60.72464,
             "clipTime": 2.112,
-            "volume": 0.4,
-            "x": -353.267181,
+            "volume": 0.5,
+            "x": -384.352844,
             "y": 69.89,
             "z": 17.75,
             "enterOrExit": "exit"
         },
         {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
+            "objectName": "voiceMessage",
+            "clipName": "voiceMessage",
             "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -356.5576,
-            "happenTime": 50.5905876,
-            "clipTime": 1.19466662,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": -386.309937,
+            "happenTime": 62.4914856,
+            "clipTime": 1.74,
             "volume": 0.5,
-            "x": -357.8076,
-            "y": 64.89,
+            "x": -386.309937,
+            "y": 69.89,
             "z": 17.75,
             "enterOrExit": "exit"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -359.724518,
-            "happenTime": 51.8573456,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -360.974518,
-            "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
         },
         {
             "objectName": "constructionNoise5",
             "clipName": "constructionNoise",
             "audioIsLoop": false,
-            "distanceToPlayer": 7.405361,
-            "happenPlayerPos": -362.22464,
-            "happenTime": 52.85739,
+            "distanceToPlayer": 6.98366976,
+            "happenPlayerPos": -386.476379,
+            "happenTime": 62.558197,
             "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -355.175964,
+            "volume": 0.099999994,
+            "x": -379.872131,
             "y": 70.19499,
             "z": 15.4999943,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -364.558136,
-            "happenTime": 53.790802,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -364.558136,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "voiceAssistant",
-            "clipName": "voiceAssistant",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -365.1415,
-            "happenTime": 54.024086,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -367.6015,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "whiteCane",
-            "clipName": "whiteCaneStone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.153882,
-            "happenPlayerPos": -365.808075,
-            "happenTime": 54.29086,
-            "clipTime": 1.19466662,
-            "volume": 0.5,
-            "x": -367.058075,
-            "y": 64.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "voiceMessage",
-            "clipName": "voiceMessage",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": -368.9752,
-            "happenTime": 55.5575867,
-            "clipTime": 0.0,
-            "volume": 0.4,
-            "x": -368.9752,
-            "y": 69.89,
-            "z": 17.75,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "voiceAssistant",
-            "clipName": "voiceAssistant",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.45999146,
-            "happenPlayerPos": -370.4754,
-            "happenTime": 56.1576233,
-            "clipTime": 2.09066677,
-            "volume": 0.4,
-            "x": -372.9354,
-            "y": 69.89,
-            "z": 17.75,
             "enterOrExit": "exit"
         }
     ],
     "TouchLogs": [
         {
-            "touchTime": 8.553982,
-            "touchPlayerPosition": -251.549622,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "voiceAssistant",
-                "constructionNoise"
-            ]
-        },
-        {
-            "touchTime": 11.25423,
-            "touchPlayerPosition": -258.300171,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "whiteCaneStone",
-                "constructionNoise"
-            ]
-        },
-        {
-            "touchTime": 13.9544344,
-            "touchPlayerPosition": -265.050629,
+            "touchTime": 8.187195,
+            "touchPlayerPosition": -250.63269,
             "singleOrDouble": "3",
             "playingObjects": [
+                "constructionNoise"
+            ]
+        },
+        {
+            "touchTime": 11.9541321,
+            "touchPlayerPosition": -260.049927,
+            "singleOrDouble": "4",
+            "playingObjects": [
+                "whiteCaneStone",
                 "voiceMessage",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 15.1882906,
-            "touchPlayerPosition": -268.1352,
-            "singleOrDouble": "2",
-            "playingObjects": [
-                "voiceMessage"
-            ]
-        },
-        {
-            "touchTime": 21.72573,
-            "touchPlayerPosition": -284.4788,
+            "touchTime": 12.8875732,
+            "touchPlayerPosition": -262.3836,
             "singleOrDouble": "1",
             "playingObjects": [
                 "whiteCaneStone",
+                "voiceMessage",
+                "voiceAssistant",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 21.72573,
-            "touchPlayerPosition": -284.4788,
+            "touchTime": 13.2208862,
+            "touchPlayerPosition": -263.216949,
             "singleOrDouble": "2",
             "playingObjects": [
                 "whiteCaneStone",
+                "voiceAssistant",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 23.7267036,
-            "touchPlayerPosition": -289.481232,
+            "touchTime": 17.3545532,
+            "touchPlayerPosition": -273.550964,
             "singleOrDouble": "4",
             "playingObjects": [
                 "voiceMessage",
+                "voiceAssistant"
+            ]
+        },
+        {
+            "touchTime": 17.6212769,
+            "touchPlayerPosition": -274.217743,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "voiceMessage",
+                "voiceAssistant"
+            ]
+        },
+        {
+            "touchTime": 20.5881042,
+            "touchPlayerPosition": -281.634827,
+            "singleOrDouble": "1",
+            "playingObjects": [
+                "whiteCaneStone"
+            ]
+        },
+        {
+            "touchTime": 24.2884827,
+            "touchPlayerPosition": -290.885681,
+            "singleOrDouble": "3",
+            "playingObjects": [
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 23.8252144,
-            "touchPlayerPosition": -289.7275,
+            "touchTime": 28.7888489,
+            "touchPlayerPosition": -302.136475,
             "singleOrDouble": "4",
             "playingObjects": [
+                "whiteCaneStone",
                 "voiceMessage",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 24.0252228,
-            "touchPlayerPosition": -290.2275,
-            "singleOrDouble": "3",
+            "touchTime": 29.6889343,
+            "touchPlayerPosition": -304.386719,
+            "singleOrDouble": "1",
             "playingObjects": [
+                "whiteCaneStone",
                 "voiceMessage",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 26.7553673,
-            "touchPlayerPosition": -297.052765,
-            "singleOrDouble": "3",
+            "touchTime": 31.7223816,
+            "touchPlayerPosition": -309.470276,
+            "singleOrDouble": "2",
             "playingObjects": [
                 "voiceAssistant"
             ]
         },
         {
-            "touchTime": 26.9887657,
-            "touchPlayerPosition": -297.636261,
-            "singleOrDouble": "4",
+            "touchTime": 34.98929,
+            "touchPlayerPosition": -317.6375,
+            "singleOrDouble": "3",
             "playingObjects": [
-                "voiceAssistant",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 32.55579,
-            "touchPlayerPosition": -311.553925,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "voiceAssistant",
-                "constructionNoise"
-            ]
-        },
-        {
-            "touchTime": 36.3894043,
-            "touchPlayerPosition": -321.1379,
+            "touchTime": 40.3563538,
+            "touchPlayerPosition": -331.055237,
             "singleOrDouble": "1",
+            "playingObjects": [
+                "whiteCaneStone",
+                "constructionNoise"
+            ]
+        },
+        {
+            "touchTime": 41.691803,
+            "touchPlayerPosition": -334.3938,
+            "singleOrDouble": "4",
             "playingObjects": [
                 "whiteCaneStone",
                 "voiceMessage"
             ]
         },
         {
-            "touchTime": 37.48958,
-            "touchPlayerPosition": -323.888245,
+            "touchTime": 43.5898743,
+            "touchPlayerPosition": -339.139069,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "voiceAssistant"
+            ]
+        },
+        {
+            "touchTime": 46.3922424,
+            "touchPlayerPosition": -346.145081,
             "singleOrDouble": "3",
             "playingObjects": [
-                "voiceMessage",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 43.28987,
-            "touchPlayerPosition": -338.389038,
+            "touchTime": 52.79367,
+            "touchPlayerPosition": -362.148621,
             "singleOrDouble": "1",
             "playingObjects": [
-                "constructionNoise"
+                "whiteCaneStone"
             ]
         },
         {
-            "touchTime": 43.78993,
-            "touchPlayerPosition": -339.63916,
-            "singleOrDouble": "4",
+            "touchTime": 56.5575867,
+            "touchPlayerPosition": -371.55835,
+            "singleOrDouble": "3",
             "playingObjects": [
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 48.1285,
-            "touchPlayerPosition": -350.485657,
-            "singleOrDouble": "3",
+            "touchTime": 59.5579529,
+            "touchPlayerPosition": -379.0591,
+            "singleOrDouble": "2",
             "playingObjects": [
                 "voiceAssistant",
                 "constructionNoise"
             ]
         },
         {
-            "touchTime": 49.3285446,
-            "touchPlayerPosition": -353.4858,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "whiteCaneStone",
-                "constructionNoise"
-            ]
-        },
-        {
-            "touchTime": 52.6906471,
-            "touchPlayerPosition": -361.8911,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "whiteCaneStone",
-                "constructionNoise"
-            ]
-        },
-        {
-            "touchTime": 53.89069,
-            "touchPlayerPosition": -364.891144,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "whiteCaneStone",
-                "voiceMessage"
-            ]
-        },
-        {
-            "touchTime": 55.0908,
-            "touchPlayerPosition": -367.8914,
+            "touchTime": 61.4914246,
+            "touchPlayerPosition": -383.893,
             "singleOrDouble": "4",
             "playingObjects": [
                 "voiceMessage",
-                "voiceAssistant"
-            ]
-        },
-        {
-            "touchTime": 55.25741,
-            "touchPlayerPosition": -368.307922,
-            "singleOrDouble": "3",
-            "playingObjects": [
-                "voiceMessage",
-                "voiceAssistant"
+                "constructionNoise"
             ]
         }
     ]

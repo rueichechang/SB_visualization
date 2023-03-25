@@ -50,12 +50,14 @@ if __name__ == "__main__":
                     store_vis_path = os.path.join(
                         os.path.join(vis_path, mode_path), "logger_" + index + ".png"
                     )
-                    save_string_as_JSON(
-                        loggers[scene][mode][index], path=store_json_path
-                    )
+                    # save_string_as_JSON(
+                    #     loggers[scene][mode][index], path=store_json_path
+                    # )
                     generate_visualization(
                         input_path=store_json_path, output_path=store_vis_path
                     )
+                    print(scene + "-- || --" + mode)
+                    print(index)
                     print("-------------------------")
             print("==========================================")
         print("")
