@@ -31,16 +31,23 @@ if __name__ == "__main__":
     vis_path = os.path.join(base_path, "visualization")
     create_folder(vis_path)
 
+    fp = open("Unity_Loggers/result.txt", "w")
+
     for scene in loggers:
         print(f"<<<<<<<<<<<<<<<<<<{scene}>>>>>>>>>>>>>>>>>>")
+        fp.write(f"<<<<<<<<<<<<<<<<<<{scene}>>>>>>>>>>>>>>>>>>\n")
         scene_path = scene
         create_folder(os.path.join(json_path, scene_path))
         create_folder(os.path.join(vis_path, scene_path))
         for mode in loggers[scene]:
             print(f"==============={mode}===============")
+            fp.write(f"==============={mode}===============\n")
             mode_path = scene_path + "/" + mode
             create_folder(os.path.join(json_path, mode_path))
             create_folder(os.path.join(vis_path, mode_path))
+
+            analysis = [0, 0, 0, 0, 0, 0, 0]
+            total_count = 0
             for index in loggers[scene][mode]:
                 if isinstance(loggers[scene][mode][index], str):
                     print("-------------------------")
@@ -53,11 +60,30 @@ if __name__ == "__main__":
                     # save_string_as_JSON(
                     #     loggers[scene][mode][index], path=store_json_path
                     # )
-                    generate_visualization(
+                    result = generate_visualization(
                         input_path=store_json_path, output_path=store_vis_path
                     )
-                    print(scene + "-- || --" + mode)
-                    print(index)
+
+                    temp = []
+                    for i in range(len(analysis)):
+                        temp.append(analysis[i] + result[i])
+                    analysis = temp
+                    total_count += 1
+
+                    # print(scene + "-- || --" + mode)
+                    # print(index)
                     print("-------------------------")
+            for i in range(len(analysis)):
+                analysis[i] = analysis[i] / total_count
+
+            fp.write(f"Overall average delay is:{analysis[0]}\n")
+            fp.write(f"Number of Miss Event: {analysis[1]}\n")
+            fp.write(f"Number of Miss Touch: {analysis[2]}\n")
+            fp.write(f"Number of Hit Correct Event: {analysis[3]}\n")
+            fp.write(f"Number of Hit Error Event: {analysis[4]}\n")
+            fp.write(f"Total number of event is: {analysis[5]}\n")
+            fp.write(f"Hit Accuracy: {analysis[6]}\n")
+            fp.write(f"==================================\n\n")
+
             print("==========================================")
         print("")

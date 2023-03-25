@@ -562,13 +562,23 @@ def generate_visualization(input_path, output_path=""):
     trial.calculateResultsByKey()
     # trial.calculateResults()
 
-    trial.getOverallAverageDelay()
-    trial.getMissEventCount()
-    trial.getMissTouchCount()
-    trial.getHitCorrectCount()
-    trial.getHitErrorCount()
-    trial.getTotalNumOfEvents()
-    trial.getHitAccuracy()
+    delay = trial.getOverallAverageDelay()
+    miss_event = trial.getMissEventCount()
+    miss_touch = trial.getMissTouchCount()
+    hit_correct = trial.getHitCorrectCount()
+    hit_error = trial.getHitErrorCount()
+    total_event = trial.getTotalNumOfEvents()
+    hit_accuracy = trial.getHitAccuracy()
+
+    return [
+        delay,
+        miss_event,
+        miss_touch,
+        hit_correct,
+        hit_error,
+        total_event,
+        hit_accuracy,
+    ]
 
 
 if __name__ == "__main__":
