@@ -14,6 +14,7 @@ ANALYSIS_DICT = {
 def get_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input_dir", default="/json_files")
+    parser.add_argument("-o", "--output", default="result.txt")
     args = parser.parse_args()
     return args
 
@@ -21,7 +22,7 @@ def get_parser():
 if __name__ == "__main__":
     args = get_parser()
 
-    fp = open("result.txt", "w")
+    fp = open(args.output, "w")
 
     if os.path.isdir(args.input_dir):
         for scene in os.listdir(args.input_dir):
