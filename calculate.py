@@ -422,6 +422,7 @@ class EachTrialResult:
                             break
         self.MISS_EVENT_COUNT = len(eventToPlot)
 
+    ######################### No use #########################
     def calculateResults(self):
         with open(self.path) as json_file:
             data = json.load(json_file)
