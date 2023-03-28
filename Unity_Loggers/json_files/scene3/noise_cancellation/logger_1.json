@@ -93,42 +93,42 @@
         },
         {
             "objectName": "patrick",
-            "clipName": "patrick_telephone_booster",
+            "clipName": "patrick_telephone",
             "x": -3.48340654,
             "y": 0.361000061,
             "z": -9.482
         },
         {
             "objectName": "michael",
-            "clipName": "michael_telephone_booster",
+            "clipName": "michael_telephone",
             "x": -0.41340667,
             "y": 0.397697926,
             "z": -9.338352
         },
         {
             "objectName": "steve",
-            "clipName": "steve_telephone_booster",
+            "clipName": "steve_telephone",
             "x": 2.66659331,
             "y": 0.373309374,
             "z": -9.155
         },
         {
             "objectName": "doga",
-            "clipName": "doga_chi_booster",
+            "clipName": "doga_chi",
             "x": 4.776593,
             "y": 0.3499999,
             "z": -9.194998
         },
         {
             "objectName": "vlk",
-            "clipName": "vlk_chi_booster",
+            "clipName": "vlk_chi",
             "x": 1.16659331,
             "y": 0.353309155,
             "z": -9.384997
         },
         {
             "objectName": "benko",
-            "clipName": "benko_chi_booster",
+            "clipName": "benko_chi",
             "x": -1.85000038,
             "y": 0.3719952,
             "z": -9.274997
@@ -136,157 +136,31 @@
     ],
     "EventLogs": [
         {
-            "objectName": "benko",
-            "clipName": "benko_chi_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 7.694613,
-            "happenPlayerPos": -0.11,
-            "happenTime": 2.02197266,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": -1.84621882,
-            "y": 0.3719952,
-            "z": -9.27693748,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "doga",
-            "clipName": "doga_chi_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 8.896751,
-            "happenPlayerPos": -0.11,
-            "happenTime": 4.38671875,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 4.775166,
-            "y": 0.3499999,
-            "z": -9.217303,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "tableCleaning",
-            "clipName": "tableCleaning",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.77437449,
-            "happenPlayerPos": -0.11,
-            "happenTime": 5.553711,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 5.44,
-            "y": 0.95,
-            "z": -0.51,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "tableCleaning",
-            "clipName": "tableCleaning",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.77437449,
-            "happenPlayerPos": -0.11,
-            "happenTime": 9.454102,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 5.44,
-            "y": 0.95,
-            "z": -0.51,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "benko",
-            "clipName": "benko_chi_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 7.19607449,
-            "happenPlayerPos": -0.11,
-            "happenTime": 9.587402,
-            "clipTime": 7.553458,
-            "volume": 0.099999994,
-            "x": -1.67453527,
-            "y": 0.4088292,
-            "z": -8.802031,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "patrick",
-            "clipName": "patrick_telephone_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 8.399906,
-            "happenPlayerPos": -0.11,
-            "happenTime": 11.5874023,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -3.48285866,
-            "y": 0.361000061,
-            "z": -9.4745245,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "doga",
-            "clipName": "doga_chi_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 8.784552,
-            "happenPlayerPos": -0.11,
-            "happenTime": 13.8876953,
-            "clipTime": 9.478,
-            "volume": 0.099999994,
-            "x": 4.639902,
-            "y": 0.347866535,
-            "z": -9.171448,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "vrannouncement",
-            "clipName": "vrannouncement_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.635,
-            "happenPlayerPos": -0.11,
-            "happenTime": 14.6875,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -0.11,
-            "y": 1.635,
-            "z": -1.79,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "tableCleaning",
-            "clipName": "tableCleaning",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.77437449,
-            "happenPlayerPos": -0.11,
-            "happenTime": 17.9882813,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 5.44,
-            "y": 0.95,
-            "z": -0.51,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "vrannouncement",
-            "clipName": "vrannouncement_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.635,
-            "happenPlayerPos": -0.11,
-            "happenTime": 19.45459,
-            "clipTime": 4.752,
-            "volume": 0.5,
-            "x": -0.11,
-            "y": 1.635,
-            "z": -1.79,
-            "enterOrExit": "exit"
-        },
-        {
             "objectName": "michael",
-            "clipName": "michael_telephone_booster",
+            "clipName": "michael_telephone",
             "audioIsLoop": false,
-            "distanceToPlayer": 7.564111,
+            "distanceToPlayer": 7.566708,
             "happenPlayerPos": -0.11,
-            "happenTime": 20.4550781,
+            "happenTime": 2.02001953,
             "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -0.413152516,
+            "volume": 1.0,
+            "x": -0.4096306,
             "y": 0.397697926,
-            "z": -9.33756351,
+            "z": -9.340306,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "benko",
+            "clipName": "benko_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.69463539,
+            "happenPlayerPos": -0.11,
+            "happenTime": 7.053711,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": -1.84996581,
+            "y": 0.3719952,
+            "z": -9.276091,
             "enterOrExit": "enter"
         },
         {
@@ -295,9 +169,37 @@
             "audioIsLoop": false,
             "distanceToPlayer": 5.77437449,
             "happenPlayerPos": -0.11,
-            "happenTime": 21.8881836,
+            "happenTime": 8.520508,
             "clipTime": 0.0,
-            "volume": 0.099999994,
+            "volume": 0.125,
+            "x": 5.44,
+            "y": 0.95,
+            "z": -0.51,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "michael",
+            "clipName": "michael_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.09044647,
+            "happenPlayerPos": -0.11,
+            "happenTime": 9.6875,
+            "clipTime": 7.638753,
+            "volume": 1.0,
+            "x": -0.239957273,
+            "y": 0.435276747,
+            "z": -8.86588,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "tableCleaning",
+            "clipName": "tableCleaning",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.77437449,
+            "happenPlayerPos": -0.11,
+            "happenTime": 12.4208984,
+            "clipTime": 0.0,
+            "volume": 0.125,
             "x": 5.44,
             "y": 0.95,
             "z": -0.51,
@@ -305,30 +207,16 @@
         },
         {
             "objectName": "patrick",
-            "clipName": "patrick_telephone_booster",
+            "clipName": "patrick_telephone",
             "audioIsLoop": false,
-            "distanceToPlayer": 8.060518,
+            "distanceToPlayer": 8.404798,
             "happenPlayerPos": -0.11,
-            "happenTime": 23.7880859,
-            "clipTime": 12.1830616,
-            "volume": 0.5,
-            "x": -3.58083868,
-            "y": 0.361457348,
-            "z": -9.055988,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "vlk",
-            "clipName": "vlk_chi_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 7.70532751,
-            "happenPlayerPos": -0.11,
-            "happenTime": 25.7885742,
+            "happenTime": 12.5209961,
             "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 1.16679144,
-            "y": 0.353309155,
-            "z": -9.38058949,
+            "volume": 1.0,
+            "x": -3.48279762,
+            "y": 0.361000061,
+            "z": -9.479898,
             "enterOrExit": "enter"
         },
         {
@@ -337,7 +225,7 @@
             "audioIsLoop": false,
             "distanceToPlayer": 1.635,
             "happenPlayerPos": -0.11,
-            "happenTime": 26.4550781,
+            "happenTime": 13.987793,
             "clipTime": 0.0,
             "volume": 0.5,
             "x": -0.11,
@@ -346,17 +234,17 @@
             "enterOrExit": "enter"
         },
         {
-            "objectName": "michael",
-            "clipName": "michael_telephone_booster",
+            "objectName": "benko",
+            "clipName": "benko_chi",
             "audioIsLoop": false,
-            "distanceToPlayer": 7.088018,
+            "distanceToPlayer": 7.194715,
             "happenPlayerPos": -0.11,
-            "happenTime": 28.12207,
-            "clipTime": 7.65734673,
-            "volume": 0.5,
-            "x": -0.243056357,
-            "y": 0.435274839,
-            "z": -8.863389,
+            "happenTime": 14.6210938,
+            "clipTime": 7.553458,
+            "volume": 0.125,
+            "x": -1.67709208,
+            "y": 0.408837318,
+            "z": -8.800064,
             "enterOrExit": "exit"
         },
         {
@@ -365,63 +253,7 @@
             "audioIsLoop": false,
             "distanceToPlayer": 1.635,
             "happenPlayerPos": -0.11,
-            "happenTime": 31.222168,
-            "clipTime": 4.736,
-            "volume": 0.5,
-            "x": -0.11,
-            "y": 1.635,
-            "z": -1.79,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "steve",
-            "clipName": "steve_telephone_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 7.87869,
-            "happenPlayerPos": -0.11,
-            "happenTime": 35.3227539,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 2.66602278,
-            "y": 0.373309374,
-            "z": -9.153973,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "vrannouncement",
-            "clipName": "vrannouncement_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.635,
-            "happenPlayerPos": -0.11,
-            "happenTime": 36.4560547,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -0.11,
-            "y": 1.635,
-            "z": -1.79,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "vlk",
-            "clipName": "vlk_chi_booster",
-            "audioIsLoop": false,
-            "distanceToPlayer": 7.33743334,
-            "happenPlayerPos": -0.11,
-            "happenTime": 37.38916,
-            "clipTime": 11.574,
-            "volume": 0.099999994,
-            "x": 1.28713787,
-            "y": 0.352748632,
-            "z": -8.984547,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "vrannouncement",
-            "clipName": "vrannouncement_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.635,
-            "happenPlayerPos": -0.11,
-            "happenTime": 41.2231445,
+            "happenTime": 18.7578125,
             "clipTime": 4.752,
             "volume": 0.5,
             "x": -0.11,
@@ -435,27 +267,209 @@
             "audioIsLoop": false,
             "distanceToPlayer": 5.77437449,
             "happenPlayerPos": -0.11,
-            "happenTime": 43.8901367,
+            "happenTime": 20.621582,
             "clipTime": 0.0,
-            "volume": 0.099999994,
+            "volume": 0.125,
             "x": 5.44,
             "y": 0.95,
             "z": -0.51,
             "enterOrExit": "enter"
         },
         {
-            "objectName": "steve",
-            "clipName": "steve_telephone_booster",
+            "objectName": "doga",
+            "clipName": "doga_chi",
             "audioIsLoop": false,
-            "distanceToPlayer": 7.459261,
+            "distanceToPlayer": 8.878906,
+            "happenPlayerPos": -0.11,
+            "happenTime": 22.4550781,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": 4.776488,
+            "y": 0.3499999,
+            "z": -9.195046,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "vrannouncement",
+            "clipName": "vrannouncement_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.635,
+            "happenPlayerPos": -0.11,
+            "happenTime": 24.3583984,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -0.11,
+            "y": 1.635,
+            "z": -1.79,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "tableCleaning",
+            "clipName": "tableCleaning",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.77437449,
+            "happenPlayerPos": -0.11,
+            "happenTime": 24.5219727,
+            "clipTime": 3.88,
+            "volume": 0.125,
+            "x": 5.44,
+            "y": 0.95,
+            "z": -0.51,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "patrick",
+            "clipName": "patrick_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 8.064682,
+            "happenPlayerPos": -0.11,
+            "happenTime": 24.72168,
+            "clipTime": 12.1830616,
+            "volume": 1.0,
+            "x": -3.583547,
+            "y": 0.361456633,
+            "z": -9.059313,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "vlk",
+            "clipName": "vlk_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.70838737,
+            "happenPlayerPos": -0.11,
+            "happenTime": 26.8217773,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": 1.1670928,
+            "y": 0.353309155,
+            "z": -9.383645,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "vrannouncement",
+            "clipName": "vrannouncement_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.635,
+            "happenPlayerPos": -0.11,
+            "happenTime": 29.12207,
+            "clipTime": 4.752,
+            "volume": 0.5,
+            "x": -0.11,
+            "y": 1.635,
+            "z": -1.79,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "doga",
+            "clipName": "doga_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 8.785915,
+            "happenPlayerPos": -0.11,
+            "happenTime": 31.9223633,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": 4.642202,
+            "y": 0.3478644,
+            "z": -9.17159,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "steve",
+            "clipName": "steve_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.879768,
+            "happenPlayerPos": -0.11,
+            "happenTime": 34.4892578,
+            "clipTime": 0.0,
+            "volume": 1.0,
+            "x": 2.6665802,
+            "y": 0.373309374,
+            "z": -9.154916,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "vlk",
+            "clipName": "vlk_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.33678246,
+            "happenPlayerPos": -0.11,
+            "happenTime": 38.38965,
+            "clipTime": 11.544,
+            "volume": 0.125,
+            "x": 1.2874465,
+            "y": 0.352747917,
+            "z": -8.983823,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "vrannouncement",
+            "clipName": "vrannouncement_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.635,
+            "happenPlayerPos": -0.11,
+            "happenTime": 40.65625,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -0.11,
+            "y": 1.635,
+            "z": -1.79,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "steve",
+            "clipName": "steve_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 7.45840454,
+            "happenPlayerPos": -0.11,
+            "happenTime": 44.5898438,
+            "clipTime": 10.0705442,
+            "volume": 1.0,
+            "x": 2.6078732,
+            "y": 0.3763864,
+            "z": -8.725366,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "tableCleaning",
+            "clipName": "tableCleaning",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.77437449,
+            "happenPlayerPos": -0.11,
+            "happenTime": 44.68994,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": 5.44,
+            "y": 0.95,
+            "z": -0.51,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "vrannouncement",
+            "clipName": "vrannouncement_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.635,
             "happenPlayerPos": -0.11,
             "happenTime": 45.42334,
-            "clipTime": 10.0705442,
+            "clipTime": 4.752,
             "volume": 0.5,
-            "x": 2.60709929,
-            "y": 0.3763802,
-            "z": -8.72659,
+            "x": -0.11,
+            "y": 1.635,
+            "z": -1.79,
             "enterOrExit": "exit"
+        },
+        {
+            "objectName": "vrannouncement",
+            "clipName": "vrannouncement_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.635,
+            "happenPlayerPos": -0.11,
+            "happenTime": 47.7236328,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -0.11,
+            "y": 1.635,
+            "z": -1.79,
+            "enterOrExit": "enter"
         },
         {
             "objectName": "tableCleaning",
@@ -463,9 +477,9 @@
             "audioIsLoop": false,
             "distanceToPlayer": 5.77437449,
             "happenPlayerPos": -0.11,
-            "happenTime": 47.7905273,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
+            "happenTime": 48.590332,
+            "clipTime": 3.88,
+            "volume": 0.125,
             "x": 5.44,
             "y": 0.95,
             "z": -0.51,
@@ -475,28 +489,28 @@
             "objectName": "xu",
             "clipName": "xu_telephone",
             "audioIsLoop": false,
-            "distanceToPlayer": 2.83320212,
+            "distanceToPlayer": 2.85614753,
             "happenPlayerPos": -0.11,
-            "happenTime": 50.46045,
+            "happenTime": 49.6235352,
             "clipTime": 0.0,
             "volume": 0.5,
-            "x": 1.30994081,
-            "y": 0.00174856186,
-            "z": -4.241693,
+            "x": 1.34757614,
+            "y": -0.000148534775,
+            "z": -4.246227,
             "enterOrExit": "enter"
         },
         {
-            "objectName": "laura",
-            "clipName": "laura_chi",
+            "objectName": "obama",
+            "clipName": "obama_chi",
             "audioIsLoop": false,
-            "distanceToPlayer": 3.256002,
+            "distanceToPlayer": 2.279564,
             "happenPlayerPos": -0.11,
-            "happenTime": 56.2910156,
+            "happenTime": 52.19043,
             "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": -0.216377079,
-            "y": 0.0812540054,
-            "z": -5.043249,
+            "volume": 0.125,
+            "x": 1.580034,
+            "y": 0.0619952679,
+            "z": -3.31851363,
             "enterOrExit": "enter"
         },
         {
@@ -505,54 +519,54 @@
             "audioIsLoop": false,
             "distanceToPlayer": 1.635,
             "happenPlayerPos": -0.11,
-            "happenTime": 58.7578125,
-            "clipTime": 0.0,
+            "happenTime": 52.4907227,
+            "clipTime": 4.752,
             "volume": 0.5,
             "x": -0.11,
             "y": 1.635,
             "z": -1.79,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "tableCleaning",
+            "clipName": "tableCleaning",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.77437449,
+            "happenPlayerPos": -0.11,
+            "happenTime": 54.35742,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": 5.44,
+            "y": 0.95,
+            "z": -0.51,
             "enterOrExit": "enter"
+        },
+        {
+            "objectName": "obama",
+            "clipName": "obama_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.97487652,
+            "happenPlayerPos": -0.11,
+            "happenTime": 57.85742,
+            "clipTime": 5.63270855,
+            "volume": 0.125,
+            "x": 1.28590083,
+            "y": 0.06476784,
+            "z": -3.185494,
+            "enterOrExit": "exit"
         },
         {
             "objectName": "xu",
             "clipName": "xu_telephone",
             "audioIsLoop": false,
-            "distanceToPlayer": 2.50328732,
+            "distanceToPlayer": 2.50028968,
             "happenPlayerPos": -0.11,
-            "happenTime": 58.85791,
+            "happenTime": 58.0244141,
             "clipTime": 8.379342,
             "volume": 0.5,
-            "x": 1.10614443,
-            "y": 0.003667593,
-            "z": -3.97801876,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "ariel",
-            "clipName": "ariel_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 3.04220152,
-            "happenPlayerPos": -0.11,
-            "happenTime": 63.0581055,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": -1.11563075,
-            "y": 0.07327461,
-            "z": -4.66024876,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "vrannouncement",
-            "clipName": "vrannouncement_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.635,
-            "happenPlayerPos": -0.11,
-            "happenTime": 63.5249023,
-            "clipTime": 4.752,
-            "volume": 0.5,
-            "x": -0.11,
-            "y": 1.635,
-            "z": -1.79,
+            "x": 1.10360956,
+            "y": 0.000641346,
+            "z": -3.97600079,
             "enterOrExit": "exit"
         },
         {
@@ -561,9 +575,79 @@
             "audioIsLoop": false,
             "distanceToPlayer": 5.77437449,
             "happenPlayerPos": -0.11,
-            "happenTime": 63.824707,
+            "happenTime": 58.2578125,
             "clipTime": 0.0,
-            "volume": 0.099999994,
+            "volume": 0.125,
+            "x": 5.44,
+            "y": 0.95,
+            "z": -0.51,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "justine",
+            "clipName": "justine_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.38359141,
+            "happenPlayerPos": -0.11,
+            "happenTime": 58.5576172,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -1.68469536,
+            "y": 0.10168004,
+            "z": -3.576478,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "ariel",
+            "clipName": "ariel_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 3.05778027,
+            "happenPlayerPos": -0.11,
+            "happenTime": 63.6914063,
+            "clipTime": 0.0,
+            "volume": 0.125,
+            "x": -1.09916258,
+            "y": 0.07251644,
+            "z": -4.682459,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "vrannouncement",
+            "clipName": "vrannouncement_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 1.635,
+            "happenPlayerPos": -0.11,
+            "happenTime": 64.7583,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": -0.11,
+            "y": 1.635,
+            "z": -1.79,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "justine",
+            "clipName": "justine_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.153121,
+            "happenPlayerPos": -0.11,
+            "happenTime": 65.2583,
+            "clipTime": 6.697347,
+            "volume": 0.5,
+            "x": -1.392099,
+            "y": 0.100341558,
+            "z": -3.516871,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "tableCleaning",
+            "clipName": "tableCleaning",
+            "audioIsLoop": false,
+            "distanceToPlayer": 5.77437449,
+            "happenPlayerPos": -0.11,
+            "happenTime": 68.0249,
+            "clipTime": 0.0,
+            "volume": 0.125,
             "x": 5.44,
             "y": 0.95,
             "z": -0.51,
@@ -573,70 +657,14 @@
             "objectName": "laura",
             "clipName": "laura_chi",
             "audioIsLoop": false,
-            "distanceToPlayer": 2.98528266,
+            "distanceToPlayer": 3.25897336,
             "happenPlayerPos": -0.11,
-            "happenTime": 67.46045,
-            "clipTime": 11.162,
-            "volume": 0.099999994,
-            "x": -0.193459213,
-            "y": 0.08270836,
-            "z": -4.77296925,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "tableCleaning",
-            "clipName": "tableCleaning",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.77437449,
-            "happenPlayerPos": -0.11,
-            "happenTime": 67.7251,
-            "clipTime": 3.88,
-            "volume": 0.099999994,
-            "x": 5.44,
-            "y": 0.95,
-            "z": -0.51,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "justine",
-            "clipName": "justine_telephone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.378621,
-            "happenPlayerPos": -0.11,
-            "happenTime": 71.05859,
+            "happenTime": 69.125,
             "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -1.67637,
-            "y": 0.101887941,
-            "z": -3.57716012,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "ariel",
-            "clipName": "ariel_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.76465,
-            "happenPlayerPos": -0.11,
-            "happenTime": 72.55859,
-            "clipTime": 9.472709,
-            "volume": 0.099999994,
-            "x": -0.9602996,
-            "y": 0.07172084,
-            "z": -4.419665,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "obama",
-            "clipName": "obama_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.278586,
-            "happenPlayerPos": -0.11,
-            "happenTime": 75.32568,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 1.58010316,
-            "y": 0.0619952679,
-            "z": -3.316978,
+            "volume": 0.125,
+            "x": -0.222223759,
+            "y": 0.08267498,
+            "z": -5.045991,
             "enterOrExit": "enter"
         },
         {
@@ -645,77 +673,7 @@
             "audioIsLoop": false,
             "distanceToPlayer": 1.635,
             "happenPlayerPos": -0.11,
-            "happenTime": 76.99219,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": -0.11,
-            "y": 1.635,
-            "z": -1.79,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "justine",
-            "clipName": "justine_telephone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 2.14887977,
-            "happenPlayerPos": -0.11,
-            "happenTime": 77.75928,
-            "clipTime": 6.697347,
-            "volume": 0.5,
-            "x": -1.39147174,
-            "y": 0.101230383,
-            "z": -3.51199484,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "anhong",
-            "clipName": "anhong_telephone",
-            "audioIsLoop": false,
-            "distanceToPlayer": 3.163395,
-            "happenPlayerPos": -0.11,
-            "happenTime": 78.89258,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 0.6445137,
-            "y": -0.0299999714,
-            "z": -4.86195,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "tableCleaning",
-            "clipName": "tableCleaning",
-            "audioIsLoop": false,
-            "distanceToPlayer": 5.77437449,
-            "happenPlayerPos": -0.11,
-            "happenTime": 78.9926758,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
-            "x": 5.44,
-            "y": 0.95,
-            "z": -0.51,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "obama",
-            "clipName": "obama_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.97951174,
-            "happenPlayerPos": -0.11,
-            "happenTime": 80.9926758,
-            "clipTime": 5.642,
-            "volume": 0.099999994,
-            "x": 1.27555132,
-            "y": 0.06477475,
-            "z": -3.202274,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "vrannouncement",
-            "clipName": "vrannouncement_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 1.635,
-            "happenPlayerPos": -0.11,
-            "happenTime": 81.76074,
+            "happenTime": 69.5249,
             "clipTime": 4.752,
             "volume": 0.5,
             "x": -0.11,
@@ -729,233 +687,271 @@
             "audioIsLoop": false,
             "distanceToPlayer": 5.77437449,
             "happenPlayerPos": -0.11,
-            "happenTime": 82.89258,
-            "clipTime": 0.0,
-            "volume": 0.099999994,
+            "happenTime": 71.92529,
+            "clipTime": 3.88,
+            "volume": 0.125,
             "x": 5.44,
             "y": 0.95,
             "z": -0.51,
             "enterOrExit": "exit"
         },
         {
+            "objectName": "ariel",
+            "clipName": "ariel_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.76531386,
+            "happenPlayerPos": -0.11,
+            "happenTime": 73.1918945,
+            "clipTime": 9.496,
+            "volume": 0.125,
+            "x": -0.957194448,
+            "y": 0.07041669,
+            "z": -4.42139959,
+            "enterOrExit": "exit"
+        },
+        {
             "objectName": "anhong",
             "clipName": "anhong_telephone",
             "audioIsLoop": false,
-            "distanceToPlayer": 2.86117482,
+            "distanceToPlayer": 3.171343,
             "happenPlayerPos": -0.11,
-            "happenTime": 85.02637,
-            "clipTime": 6.10213137,
+            "happenTime": 75.85889,
+            "clipTime": 0.0,
             "volume": 0.5,
-            "x": 0.682110548,
-            "y": -0.0228154659,
-            "z": -4.53924751,
+            "x": 0.647801042,
+            "y": -0.0299999714,
+            "z": -4.869327,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "laura",
+            "clipName": "laura_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.98726344,
+            "happenPlayerPos": -0.11,
+            "happenTime": 80.29248,
+            "clipTime": 11.162,
+            "volume": 0.125,
+            "x": -0.1908691,
+            "y": 0.08315587,
+            "z": -4.77501059,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "anhong",
+            "clipName": "anhong_telephone",
+            "audioIsLoop": false,
+            "distanceToPlayer": 2.861598,
+            "happenPlayerPos": -0.11,
+            "happenTime": 81.9926758,
+            "clipTime": 6.122653,
+            "volume": 0.5,
+            "x": 0.675843954,
+            "y": -0.022813797,
+            "z": -4.54148531,
             "enterOrExit": "exit"
         }
     ],
     "TouchLogs": [
         {
-            "touchTime": 2.98681641,
+            "touchTime": 3.29199219,
             "touchPlayerPosition": -0.11,
-            "singleOrDouble": "1",
+            "singleOrDouble": "2",
             "playingObjects": [
-                "benko_chi_booster"
+                "michael_telephone"
             ]
         },
         {
-            "touchTime": 5.820801,
+            "touchTime": 9.42041,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "1",
             "playingObjects": [
-                "doga_chi_booster",
-                "benko_chi_booster",
+                "benko_chi",
+                "michael_telephone",
                 "tableCleaning"
             ]
         },
         {
-            "touchTime": 9.520508,
+            "touchTime": 13.8208008,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "benko_chi",
+                "patrick_telephone"
+            ]
+        },
+        {
+            "touchTime": 15.7543945,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "4",
+            "playingObjects": [
+                "patrick_telephone",
+                "vrannouncement_chi"
+            ]
+        },
+        {
+            "touchTime": 21.9882813,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "3",
             "playingObjects": [
-                "doga_chi_booster",
-                "benko_chi_booster"
-            ]
-        },
-        {
-            "touchTime": 12.5541992,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "2",
-            "playingObjects": [
-                "doga_chi_booster",
-                "patrick_telephone_booster"
-            ]
-        },
-        {
-            "touchTime": 15.9541016,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "patrick_telephone_booster",
-                "vrannouncement_chi"
-            ]
-        },
-        {
-            "touchTime": 21.4882813,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "2",
-            "playingObjects": [
-                "patrick_telephone_booster",
-                "michael_telephone_booster",
+                "patrick_telephone",
                 "tableCleaning"
             ]
         },
         {
-            "touchTime": 27.5219727,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "vlk_chi_booster",
-                "michael_telephone_booster",
-                "vrannouncement_chi"
-            ]
-        },
-        {
-            "touchTime": 29.1552734,
+            "touchTime": 23.99414,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "1",
             "playingObjects": [
-                "vlk_chi_booster",
+                "doga_chi",
+                "patrick_telephone",
+                "tableCleaning"
+            ]
+        },
+        {
+            "touchTime": 26.0214844,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "4",
+            "playingObjects": [
+                "doga_chi",
                 "vrannouncement_chi"
             ]
         },
         {
-            "touchTime": 36.15674,
+            "touchTime": 28.7553711,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "1",
+            "playingObjects": [
+                "doga_chi",
+                "vlk_chi",
+                "vrannouncement_chi"
+            ]
+        },
+        {
+            "touchTime": 35.9560547,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "2",
             "playingObjects": [
-                "vlk_chi_booster",
-                "steve_telephone_booster"
+                "vlk_chi",
+                "steve_telephone"
             ]
         },
         {
-            "touchTime": 37.65576,
+            "touchTime": 42.42285,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "4",
             "playingObjects": [
-                "steve_telephone_booster",
+                "steve_telephone",
                 "vrannouncement_chi"
             ]
         },
         {
-            "touchTime": 42.65625,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "steve_telephone_booster"
-            ]
-        },
-        {
-            "touchTime": 45.42334,
+            "touchTime": 46.1235352,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "3",
             "playingObjects": [
-                "steve_telephone_booster",
                 "tableCleaning"
             ]
         },
         {
-            "touchTime": 51.7573242,
+            "touchTime": 50.05713,
             "touchPlayerPosition": -0.11,
-            "singleOrDouble": "2",
+            "singleOrDouble": "4",
             "playingObjects": [
-                "xu_telephone"
+                "xu_telephone",
+                "vrannouncement_chi"
             ]
         },
         {
-            "touchTime": 57.2959,
+            "touchTime": 52.95703,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "1",
             "playingObjects": [
                 "xu_telephone",
+                "obama_chi"
+            ]
+        },
+        {
+            "touchTime": 55.2573242,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "xu_telephone",
+                "obama_chi",
+                "tableCleaning"
+            ]
+        },
+        {
+            "touchTime": 55.5239258,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "xu_telephone",
+                "obama_chi",
+                "tableCleaning"
+            ]
+        },
+        {
+            "touchTime": 58.59082,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "3",
+            "playingObjects": [
+                "justine_telephone"
+            ]
+        },
+        {
+            "touchTime": 60.32422,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "justine_telephone"
+            ]
+        },
+        {
+            "touchTime": 65.1582,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "1",
+            "playingObjects": [
+                "justine_telephone",
+                "ariel_chi",
+                "vrannouncement_chi"
+            ]
+        },
+        {
+            "touchTime": 66.1582,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "4",
+            "playingObjects": [
+                "ariel_chi",
+                "vrannouncement_chi"
+            ]
+        },
+        {
+            "touchTime": 69.5249,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "3",
+            "playingObjects": [
+                "ariel_chi",
+                "laura_chi",
+                "tableCleaning"
+            ]
+        },
+        {
+            "touchTime": 72.6918945,
+            "touchPlayerPosition": -0.11,
+            "singleOrDouble": "1",
+            "playingObjects": [
+                "ariel_chi",
                 "laura_chi"
             ]
         },
         {
-            "touchTime": 59.82422,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "laura_chi",
-                "vrannouncement_chi"
-            ]
-        },
-        {
-            "touchTime": 64.4248047,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "ariel_chi",
-                "laura_chi",
-                "tableCleaning"
-            ]
-        },
-        {
-            "touchTime": 66.2583,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "3",
-            "playingObjects": [
-                "ariel_chi",
-                "laura_chi",
-                "tableCleaning"
-            ]
-        },
-        {
-            "touchTime": 72.05859,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "2",
-            "playingObjects": [
-                "justine_telephone",
-                "ariel_chi"
-            ]
-        },
-        {
-            "touchTime": 77.32568,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "justine_telephone",
-                "obama_chi",
-                "vrannouncement_chi"
-            ]
-        },
-        {
-            "touchTime": 78.83301,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "obama_chi",
-                "vrannouncement_chi"
-            ]
-        },
-        {
-            "touchTime": 79.75879,
+            "touchTime": 77.99365,
             "touchPlayerPosition": -0.11,
             "singleOrDouble": "2",
             "playingObjects": [
                 "anhong_telephone",
-                "obama_chi",
-                "vrannouncement_chi",
-                "tableCleaning"
-            ]
-        },
-        {
-            "touchTime": 80.1977539,
-            "touchPlayerPosition": -0.11,
-            "singleOrDouble": "3",
-            "playingObjects": [
-                "anhong_telephone",
-                "obama_chi",
-                "vrannouncement_chi",
-                "tableCleaning"
+                "laura_chi"
             ]
         }
     ]
