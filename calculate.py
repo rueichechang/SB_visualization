@@ -30,12 +30,10 @@ KeyMap = {
     "constructionNoise": THREE,
     "cartoonDrilling": THREE,
     "voiceMessage": FOUR,
-
     "audiobook": ONE,
     "knocking": TWO,
     "announcement": THREE,
     "supervisorMessage": FOUR,
-    
     "doga": ONE,
     "benko": ONE,
     "vlk": ONE,
@@ -230,7 +228,7 @@ class EachTrialResult:
         for i in self.DELAYS:
             res_list.extend(self.DELAYS[i])
         if len(res_list) == 0:
-            return
+            return 0
         delay = sum(res_list) / len(res_list)
         print("Overall average delay is:", delay)
         return delay
