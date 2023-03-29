@@ -148,7 +148,7 @@
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 5.022217,
+            "happenTime": 5.022461,
             "clipTime": 0.0,
             "volume": 0.5,
             "x": 0.07,
@@ -157,88 +157,46 @@
             "enterOrExit": "enter"
         },
         {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 12.3251953,
+            "clipTime": 0.0,
+            "volume": 1.0,
+            "x": -0.73044014,
+            "y": 1.75,
+            "z": 21.9679127,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 13.5258789,
+            "clipTime": 0.0,
+            "volume": 1.0,
+            "x": -0.73044014,
+            "y": 1.75,
+            "z": 21.9679127,
+            "enterOrExit": "exit"
+        },
+        {
             "objectName": "announcement",
             "clipName": "announcement",
             "audioIsLoop": false,
             "distanceToPlayer": 10.8190794,
             "happenPlayerPos": 0.07,
-            "happenTime": 7.923462,
+            "happenTime": 14.293457,
             "clipTime": 0.0,
             "volume": 0.3125,
             "x": 8.07,
             "y": 3.4,
             "z": 18.22,
             "enterOrExit": "enter"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264166,
-            "happenPlayerPos": 0.07,
-            "happenTime": 9.057251,
-            "clipTime": 0.0,
-            "volume": 1.0,
-            "x": 7.984943,
-            "y": 1.75,
-            "z": 5.888234,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264166,
-            "happenPlayerPos": 0.07,
-            "happenTime": 10.25769,
-            "clipTime": 0.0,
-            "volume": 0.9,
-            "x": 7.984943,
-            "y": 1.75,
-            "z": 5.888234,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 13.7592773,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "announcement",
-            "clipName": "announcement",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.8190794,
-            "happenPlayerPos": 0.07,
-            "happenTime": 13.7927246,
-            "clipTime": 5.86,
-            "volume": 0.28125,
-            "x": 8.07,
-            "y": 3.4,
-            "z": 18.22,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 17.6943359,
-            "clipTime": 3.88266659,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "exit"
         },
         {
             "objectName": "audioBook",
@@ -246,78 +204,8 @@
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 18.9615479,
-            "clipTime": 13.8666668,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "audioBook",
-            "clipName": "sentence2_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 19.9285889,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264156,
-            "happenPlayerPos": 0.07,
-            "happenTime": 26.3730469,
-            "clipTime": 0.0,
-            "volume": 1.0,
-            "x": -1.90970743,
-            "y": 1.75,
-            "z": 21.8020782,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264156,
-            "happenPlayerPos": 0.07,
-            "happenTime": 27.5734863,
-            "clipTime": 0.0,
-            "volume": 1.0,
-            "x": -1.90970743,
-            "y": 1.75,
-            "z": 21.8020782,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "announcement",
-            "clipName": "announcement",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.8190794,
-            "happenPlayerPos": 0.07,
-            "happenTime": 29.2409668,
-            "clipTime": 0.0,
-            "volume": 0.3125,
-            "x": 8.07,
-            "y": 3.4,
-            "z": 18.22,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "audioBook",
-            "clipName": "sentence2_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 34.8433838,
-            "clipTime": 14.88,
+            "happenTime": 18.9614258,
+            "clipTime": 13.896,
             "volume": 0.45,
             "x": 0.07,
             "y": -0.39,
@@ -330,7 +218,7 @@
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 35.0769043,
+            "happenTime": 20.128418,
             "clipTime": 0.0,
             "volume": 0.5,
             "x": 0.07,
@@ -344,8 +232,8 @@
             "audioIsLoop": false,
             "distanceToPlayer": 10.8190794,
             "happenPlayerPos": 0.07,
-            "happenTime": 35.11023,
-            "clipTime": 5.86,
+            "happenTime": 20.16211,
+            "clipTime": 5.845333,
             "volume": 0.28125,
             "x": 8.07,
             "y": 3.4,
@@ -358,26 +246,26 @@
             "audioIsLoop": false,
             "distanceToPlayer": 10.2264166,
             "happenPlayerPos": 0.07,
-            "happenTime": 35.8105469,
+            "happenTime": 20.3286133,
             "clipTime": 0.0,
             "volume": 1.0,
-            "x": -2.37773466,
+            "x": 4.44930267,
             "y": 1.75,
-            "z": 21.6958027,
+            "z": 20.99009,
             "enterOrExit": "enter"
         },
         {
-            "objectName": "audioBook",
-            "clipName": "sentence3_chi",
+            "objectName": "announcement",
+            "clipName": "announcement",
             "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
+            "distanceToPlayer": 10.8190794,
             "happenPlayerPos": 0.07,
-            "happenTime": 36.97766,
+            "happenTime": 21.0957031,
             "clipTime": 0.0,
-            "volume": 0.35,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
+            "volume": 0.3125,
+            "x": 8.07,
+            "y": 3.4,
+            "z": 18.22,
             "enterOrExit": "enter"
         },
         {
@@ -386,177 +274,37 @@
             "audioIsLoop": false,
             "distanceToPlayer": 10.2264166,
             "happenPlayerPos": 0.07,
-            "happenTime": 37.0109863,
-            "clipTime": 0.0,
-            "volume": 0.9,
-            "x": -2.37773466,
-            "y": 1.75,
-            "z": 21.6958027,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "announcement",
-            "clipName": "announcement",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.8190794,
-            "happenPlayerPos": 0.07,
-            "happenTime": 38.3116455,
-            "clipTime": 0.0,
-            "volume": 0.3125,
-            "x": 8.07,
-            "y": 3.4,
-            "z": 18.22,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 39.01184,
-            "clipTime": 3.88266659,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 44.14746,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "announcement",
-            "clipName": "announcement",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.8190794,
-            "happenPlayerPos": 0.07,
-            "happenTime": 44.18091,
-            "clipTime": 5.86,
-            "volume": 0.28125,
-            "x": 8.07,
-            "y": 3.4,
-            "z": 18.22,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 48.0782471,
-            "clipTime": 3.88266659,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 51.2797852,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "announcement",
-            "clipName": "announcement",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.8190794,
-            "happenPlayerPos": 0.07,
-            "happenTime": 51.9466553,
-            "clipTime": 0.0,
-            "volume": 0.3125,
-            "x": 8.07,
-            "y": 3.4,
-            "z": 18.22,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "audioBook",
-            "clipName": "sentence3_chi",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 52.81372,
-            "clipTime": 15.7866669,
-            "volume": 0.24499999,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264156,
-            "happenPlayerPos": 0.07,
-            "happenTime": 54.2143555,
-            "clipTime": 0.0,
-            "volume": 1.0,
-            "x": -9.8348465,
-            "y": 1.75,
-            "z": 10.6237717,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 55.21472,
-            "clipTime": 3.88266659,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264156,
-            "happenPlayerPos": 0.07,
-            "happenTime": 55.38147,
+            "happenTime": 21.5292969,
             "clipTime": 1.15,
-            "volume": 0.9,
-            "x": -9.8348465,
+            "volume": 0.7,
+            "x": 4.44930267,
             "y": 1.75,
-            "z": 10.6237717,
+            "z": 20.99009,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 24.0639648,
+            "clipTime": 3.894,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
             "enterOrExit": "exit"
         },
         {
             "objectName": "audioBook",
-            "clipName": "sentence4_chi",
+            "clipName": "sentence2_chi",
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 57.78247,
+            "happenTime": 24.9306641,
             "clipTime": 0.0,
-            "volume": 0.315,
+            "volume": 0.45,
             "x": 0.07,
             "y": -0.39,
             "z": 12.0,
@@ -568,7 +316,147 @@
             "audioIsLoop": false,
             "distanceToPlayer": 10.8190794,
             "happenPlayerPos": 0.07,
-            "happenTime": 57.8157959,
+            "happenTime": 26.9648438,
+            "clipTime": 5.86,
+            "volume": 0.3125,
+            "x": 8.07,
+            "y": 3.4,
+            "z": 18.22,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 28.06543,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 32.00049,
+            "clipTime": 3.88266659,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 36.6357422,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "announcement",
+            "clipName": "announcement",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.8190794,
+            "happenPlayerPos": 0.07,
+            "happenTime": 38.40381,
+            "clipTime": 0.0,
+            "volume": 0.3125,
+            "x": 8.07,
+            "y": 3.4,
+            "z": 18.22,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 38.8369141,
+            "clipTime": 0.0,
+            "volume": 1.0,
+            "x": -5.375956,
+            "y": 1.75,
+            "z": 20.3869877,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "audioBook",
+            "clipName": "sentence2_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 39.8374023,
+            "clipTime": 14.88,
+            "volume": 0.179999992,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 40.03711,
+            "clipTime": 1.15,
+            "volume": 0.7,
+            "x": -5.375956,
+            "y": 1.75,
+            "z": 20.3869877,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 40.5708,
+            "clipTime": 3.894,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "audioBook",
+            "clipName": "sentence3_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 44.2392578,
+            "clipTime": 0.0,
+            "volume": 0.404999971,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "announcement",
+            "clipName": "announcement",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.8190794,
+            "happenPlayerPos": 0.07,
+            "happenTime": 44.27246,
             "clipTime": 5.845333,
             "volume": 0.3125,
             "x": 8.07,
@@ -577,14 +465,196 @@
             "enterOrExit": "exit"
         },
         {
+            "objectName": "announcement",
+            "clipName": "announcement",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.8190794,
+            "happenPlayerPos": 0.07,
+            "happenTime": 46.5068359,
+            "clipTime": 0.0,
+            "volume": 0.3125,
+            "x": 8.07,
+            "y": 3.4,
+            "z": 18.22,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 52.3427734,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "announcement",
+            "clipName": "announcement",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.8190794,
+            "happenPlayerPos": 0.07,
+            "happenTime": 52.3759766,
+            "clipTime": 5.845333,
+            "volume": 0.28125,
+            "x": 8.07,
+            "y": 3.4,
+            "z": 18.22,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 54.1435547,
+            "clipTime": 0.0,
+            "volume": 1.0,
+            "x": -9.81654549,
+            "y": 1.75,
+            "z": 13.5020752,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 55.3105469,
+            "clipTime": 1.15,
+            "volume": 0.9,
+            "x": -9.81654549,
+            "y": 1.75,
+            "z": 13.5020752,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 56.277832,
+            "clipTime": 3.88266659,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 58.91211,
+            "clipTime": 0.0,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "audioBook",
+            "clipName": "sentence3_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 60.0791,
+            "clipTime": 15.792,
+            "volume": 0.364499956,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "exit"
+        },
+        {
             "objectName": "audioBook",
             "clipName": "sentence4_chi",
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 67.31995,
-            "clipTime": 9.504,
-            "volume": 0.315,
+            "happenTime": 60.2792969,
+            "clipTime": 0.0,
+            "volume": 0.364499956,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 62.3134766,
+            "clipTime": 0.0,
+            "volume": 1.0,
+            "x": 7.36970758,
+            "y": 1.75,
+            "z": 5.16521645,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "supervisorMessage",
+            "clipName": "supervisorMessageCHI",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 62.847168,
+            "clipTime": 3.88266659,
+            "volume": 0.5,
+            "x": 0.07,
+            "y": -0.39,
+            "z": 12.0,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "knocking",
+            "clipName": "knocking",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.2264166,
+            "happenPlayerPos": 0.07,
+            "happenTime": 63.51416,
+            "clipTime": 1.15,
+            "volume": 1.0,
+            "x": 7.36970758,
+            "y": 1.75,
+            "z": 5.16521645,
+            "enterOrExit": "exit"
+        },
+        {
+            "objectName": "announcement",
+            "clipName": "announcement",
+            "audioIsLoop": false,
+            "distanceToPlayer": 10.8190794,
+            "happenPlayerPos": 0.07,
+            "happenTime": 64.11426,
+            "clipTime": 0.0,
+            "volume": 0.3125,
+            "x": 8.07,
+            "y": 3.4,
+            "z": 18.22,
+            "enterOrExit": "enter"
+        },
+        {
+            "objectName": "audioBook",
+            "clipName": "sentence4_chi",
+            "audioIsLoop": false,
+            "distanceToPlayer": 0.0,
+            "happenPlayerPos": 0.07,
+            "happenTime": 69.8457,
+            "clipTime": 0.0,
+            "volume": 0.328049958,
             "x": 0.07,
             "y": -0.39,
             "z": 12.0,
@@ -596,9 +666,9 @@
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 67.31995,
+            "happenTime": 69.9458,
             "clipTime": 0.0,
-            "volume": 0.315,
+            "volume": 0.328049958,
             "x": 0.07,
             "y": -0.39,
             "z": 12.0,
@@ -610,82 +680,12 @@
             "audioIsLoop": false,
             "distanceToPlayer": 10.8190794,
             "happenPlayerPos": 0.07,
-            "happenTime": 68.75391,
-            "clipTime": 0.0,
+            "happenTime": 69.97949,
+            "clipTime": 5.86,
             "volume": 0.3125,
             "x": 8.07,
             "y": 3.4,
             "z": 18.22,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264166,
-            "happenPlayerPos": 0.07,
-            "happenTime": 70.25464,
-            "clipTime": 0.0,
-            "volume": 1.0,
-            "x": 7.757395,
-            "y": 1.75,
-            "z": 5.604379,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "knocking",
-            "clipName": "knocking",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.2264166,
-            "happenPlayerPos": 0.07,
-            "happenTime": 71.45508,
-            "clipTime": 1.15,
-            "volume": 0.9,
-            "x": 7.757395,
-            "y": 1.75,
-            "z": 5.604379,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 74.58984,
-            "clipTime": 0.0,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
-            "enterOrExit": "enter"
-        },
-        {
-            "objectName": "announcement",
-            "clipName": "announcement",
-            "audioIsLoop": false,
-            "distanceToPlayer": 10.8190794,
-            "happenPlayerPos": 0.07,
-            "happenTime": 74.62317,
-            "clipTime": 5.845333,
-            "volume": 0.28125,
-            "x": 8.07,
-            "y": 3.4,
-            "z": 18.22,
-            "enterOrExit": "exit"
-        },
-        {
-            "objectName": "supervisorMessage",
-            "clipName": "supervisorMessageCHI",
-            "audioIsLoop": false,
-            "distanceToPlayer": 0.0,
-            "happenPlayerPos": 0.07,
-            "happenTime": 78.52478,
-            "clipTime": 3.88266659,
-            "volume": 0.5,
-            "x": 0.07,
-            "y": -0.39,
-            "z": 12.0,
             "enterOrExit": "exit"
         },
         {
@@ -694,9 +694,9 @@
             "audioIsLoop": false,
             "distanceToPlayer": 0.0,
             "happenPlayerPos": 0.07,
-            "happenTime": 79.52527,
+            "happenTime": 82.15137,
             "clipTime": 12.144,
-            "volume": 0.315,
+            "volume": 0.328049958,
             "x": 0.07,
             "y": -0.39,
             "z": 12.0,
@@ -705,7 +705,7 @@
     ],
     "TouchLogs": [
         {
-            "touchTime": 6.12268066,
+            "touchTime": 6.189453,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "1",
             "playingObjects": [
@@ -713,60 +713,25 @@
             ]
         },
         {
-            "touchTime": 8.890503,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "3",
-            "playingObjects": [
-                "announcement",
-                "sentence1_chi"
-            ]
-        },
-        {
-            "touchTime": 10.19104,
+            "touchTime": 12.9257813,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "2",
             "playingObjects": [
-                "announcement",
                 "knocking",
                 "sentence1_chi"
             ]
         },
         {
-            "touchTime": 14.4595947,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "supervisorMessageCHI",
-                "sentence1_chi"
-            ]
-        },
-        {
-            "touchTime": 20.9373779,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "1",
-            "playingObjects": [
-                "sentence2_chi"
-            ]
-        },
-        {
-            "touchTime": 28.5073242,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "2",
-            "playingObjects": [
-                "sentence2_chi"
-            ]
-        },
-        {
-            "touchTime": 30.074707,
+            "touchTime": 15.6601563,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "3",
             "playingObjects": [
                 "announcement",
-                "sentence2_chi"
+                "sentence1_chi"
             ]
         },
         {
-            "touchTime": 35.94397,
+            "touchTime": 20.9624023,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "4",
             "playingObjects": [
@@ -775,25 +740,67 @@
             ]
         },
         {
-            "touchTime": 37.3778076,
+            "touchTime": 21.7294922,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "2",
             "playingObjects": [
-                "supervisorMessageCHI",
-                "sentence3_chi"
+                "announcement",
+                "supervisorMessageCHI"
             ]
         },
         {
-            "touchTime": 38.0448,
+            "touchTime": 26.7646484,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "1",
             "playingObjects": [
+                "announcement",
+                "sentence2_chi"
+            ]
+        },
+        {
+            "touchTime": 28.9990234,
+            "touchPlayerPosition": 0.07,
+            "singleOrDouble": "4",
+            "playingObjects": [
                 "supervisorMessageCHI",
+                "sentence2_chi"
+            ]
+        },
+        {
+            "touchTime": 37.402832,
+            "touchPlayerPosition": 0.07,
+            "singleOrDouble": "4",
+            "playingObjects": [
+                "supervisorMessageCHI",
+                "sentence2_chi"
+            ]
+        },
+        {
+            "touchTime": 40.6376953,
+            "touchPlayerPosition": 0.07,
+            "singleOrDouble": "2",
+            "playingObjects": [
+                "announcement"
+            ]
+        },
+        {
+            "touchTime": 42.0048828,
+            "touchPlayerPosition": 0.07,
+            "singleOrDouble": "3",
+            "playingObjects": [
+                "announcement"
+            ]
+        },
+        {
+            "touchTime": 46.206543,
+            "touchPlayerPosition": 0.07,
+            "singleOrDouble": "1",
+            "playingObjects": [
                 "sentence3_chi"
             ]
         },
         {
-            "touchTime": 39.47876,
+            "touchTime": 47.57373,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "3",
             "playingObjects": [
@@ -802,7 +809,7 @@
             ]
         },
         {
-            "touchTime": 44.98108,
+            "touchTime": 53.2431641,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "4",
             "playingObjects": [
@@ -811,77 +818,55 @@
             ]
         },
         {
-            "touchTime": 52.0467529,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "announcement",
-                "supervisorMessageCHI",
-                "sentence3_chi"
-            ]
-        },
-        {
-            "touchTime": 53.3139648,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "3",
-            "playingObjects": [
-                "announcement",
-                "supervisorMessageCHI"
-            ]
-        },
-        {
-            "touchTime": 54.7479248,
+            "touchTime": 55.47705,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "2",
             "playingObjects": [
-                "announcement",
-                "knocking",
-                "supervisorMessageCHI"
+                "supervisorMessageCHI",
+                "sentence3_chi"
             ]
         },
         {
-            "touchTime": 58.61621,
+            "touchTime": 59.8457031,
+            "touchPlayerPosition": 0.07,
+            "singleOrDouble": "4",
+            "playingObjects": [
+                "supervisorMessageCHI",
+                "sentence3_chi"
+            ]
+        },
+        {
+            "touchTime": 61.9467773,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "1",
             "playingObjects": [
+                "supervisorMessageCHI",
                 "sentence4_chi"
             ]
         },
         {
-            "touchTime": 69.68762,
+            "touchTime": 63.28076,
             "touchPlayerPosition": 0.07,
-            "singleOrDouble": "1",
+            "singleOrDouble": "2",
             "playingObjects": [
-                "announcement",
-                "sentence5_chi"
+                "knocking",
+                "sentence4_chi"
             ]
         },
         {
-            "touchTime": 70.32129,
+            "touchTime": 64.9814453,
             "touchPlayerPosition": 0.07,
             "singleOrDouble": "3",
             "playingObjects": [
                 "announcement",
-                "knocking",
-                "sentence5_chi"
+                "sentence4_chi"
             ]
         },
         {
-            "touchTime": 71.2550049,
+            "touchTime": 71.21338,
             "touchPlayerPosition": 0.07,
-            "singleOrDouble": "2",
+            "singleOrDouble": "1",
             "playingObjects": [
-                "announcement",
-                "knocking",
-                "sentence5_chi"
-            ]
-        },
-        {
-            "touchTime": 75.2567139,
-            "touchPlayerPosition": 0.07,
-            "singleOrDouble": "4",
-            "playingObjects": [
-                "supervisorMessageCHI",
                 "sentence5_chi"
             ]
         }
