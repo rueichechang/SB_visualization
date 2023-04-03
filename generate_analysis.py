@@ -227,7 +227,7 @@ class EachTrialResult:
         if type == "":
             number = self.getTotalNumOfEvents()
             accuracy = self.HIT_CORRECT_COUNT / number
-            print("Hit Accuracy: ", accuracy)
+            # print("Hit Accuracy: ", accuracy)
             return accuracy
         else:
             if self.SUMS[type] == 0:
@@ -240,31 +240,31 @@ class EachTrialResult:
             number = 0
             for i in self.SUMS:
                 number += self.SUMS[i]
-            print("Total number of event is: ", number)
+            # print("Total number of event is: ", number)
             return number
         else:
             return self.SUMS[type]
 
     def getHitErrorCount(self, type=""):
         if type == "":
-            print("Number of Hit Error Event: ", self.HIT_ERROR_COUNT)
+            # print("Number of Hit Error Event: ", self.HIT_ERROR_COUNT)
             return self.HIT_ERROR_COUNT
         else:
             return self.ERROR_COUNTS[type]
 
     def getHitCorrectCount(self, type=""):
         if type == "":
-            print("Number of Hit Correct Event: ", self.HIT_CORRECT_COUNT)
+            # print("Number of Hit Correct Event: ", self.HIT_CORRECT_COUNT)
             return self.HIT_CORRECT_COUNT
         else:
             return self.COUNTS[type]
 
     def getMissTouchCount(self, type=""):
         if type == "":
-            print("Number of Miss Touch: ", self.MISS_TOUCH_COUNT)
+            # print("Number of Miss Touch: ", self.MISS_TOUCH_COUNT)
             return self.MISS_TOUCH_COUNT
         else:
-            return self.MISS_EVENT[type]
+            return self.MISS_TOUCH[type]
 
     def countOnTypeMissTouch(self, typeOfTask):
         self.MISS_TOUCH[typeOfTask] += 1
@@ -276,7 +276,7 @@ class EachTrialResult:
 
     def getMissEventCount(self, type=""):
         if type == "":
-            print("Number of Miss Event: ", self.MISS_EVENT_COUNT)
+            # print("Number of Miss Event: ", self.MISS_EVENT_COUNT)
             return self.MISS_EVENT_COUNT
         else:
             return self.MISS_EVENT[type]
@@ -286,9 +286,9 @@ class EachTrialResult:
         for i in self.DELAYS:
             res_list.extend(self.DELAYS[i])
         if len(res_list) == 0:
-            return
+            return 0
         delay = sum(res_list) / len(res_list)
-        print("Overall average delay is:", delay)
+        # print("Overall average delay is:", delay)
         return delay
 
     def getSingleCategoryDelay(self, type):
@@ -570,13 +570,47 @@ def generate_type_analysis(input_path):
         hit_accuracy = trial.getHitAccuracy(type)
 
         result[type] = [
-            delay,
+            hit_accuracy,
+            hit_error / total_event,
             miss_event,
             miss_touch,
-            hit_correct,
-            hit_error,
-            total_event,
-            hit_accuracy,
+            delay,
         ]
+
+        # result[type] = [
+        #     delay,
+        #     miss_event,
+        #     miss_touch,
+        #     hit_correct,
+        #     hit_error,
+        #     total_event,
+        #     hit_accuracy,
+        # ]
+
+    return result
+
+
+def generate_result(input_path):
+    trial = EachTrialResult(input_path)
+    trial.calculateResultsByKey()
+
+    delay = trial.getOverallAverageDelay()
+    miss_event = trial.getMissEventCount()
+    miss_touch = trial.getMissTouchCount()
+    hit_correct = trial.getHitCorrectCount()
+    hit_error = trial.getHitErrorCount()
+    total_event = trial.getTotalNumOfEvents()
+    hit_accuracy = trial.getHitAccuracy()
+
+    result = [
+        hit_accuracy,
+        hit_error / total_event,
+        miss_event,
+        miss_touch,
+        delay,
+        # hit_correct,
+        # hit_error,
+        # total_event,
+    ]
 
     return result

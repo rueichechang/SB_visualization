@@ -50,7 +50,7 @@ if __name__ == "__main__":
             total_count = 0
             for index in loggers[scene][mode]:
                 if isinstance(loggers[scene][mode][index], str):
-                    print("-------------------------")
+                    print(f"------------ {index} -------------")
                     store_json_path = os.path.join(
                         os.path.join(json_path, mode_path), "logger_" + index + ".json"
                     )

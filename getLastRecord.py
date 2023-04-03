@@ -17,6 +17,8 @@ def save_string_as_JSON(json_string, path):
 
 
 if __name__ == "__main__":
+    sys.tracebacklimit = 0
+
     ### Access Firebase realtime database
     fb_app = firebase.FirebaseApplication(
         "https://soundproxy-55bf9-default-rtdb.asia-southeast1.firebasedatabase.app/",
@@ -33,6 +35,5 @@ if __name__ == "__main__":
     try:
         generate_visualization(input_path=store_json_path, output_path=store_vis_path)
     except Exception as e:
-        sys.tracebacklimit = 0
         print()
         print("---------------------------")

@@ -348,9 +348,9 @@ class EachTrialResult:
                 if len(playingObjects) == 0:
                     self.MISS_TOUCH_COUNT += 1
                     TouchLogs.remove(touchLog)
-                    print("------------No Hit------------\n")
-                    print(touchLog)
-                    print("==============================\n\n")
+                    # print("------------No Hit------------\n")
+                    # print(touchLog)
+                    # print("==============================\n\n")
                     break
 
                 else:
@@ -391,11 +391,11 @@ class EachTrialResult:
                                 end = datetime_to_float(event["Finish"])
                                 clipName = event["Task"]
                                 category = event["Resource"]
-                                print("*****************************")
-                                print(playingObject, touchEvent, touchTime)
-                                print(event)
-                                print("\n")
-                                print("*****************************")
+                                # print("*****************************")
+                                # print(playingObject, touchEvent, touchTime)
+                                # print(event)
+                                # print("\n")
+                                # print("*****************************")
                                 if (
                                     touchTime >= start
                                     and touchTime <= end
@@ -408,11 +408,11 @@ class EachTrialResult:
                                     self.HIT_CORRECT_COUNT += 1
                                     self.countOnType(category)
 
-                                    print("-----------Event----------\n")
-                                    print(event)
-                                    print("-----------Touchlog-----------\n")
-                                    print(touchLog)
-                                    print("==============================\n\n\n")
+                                    # print("-----------Event----------\n")
+                                    # print(event)
+                                    # print("-----------Touchlog-----------\n")
+                                    # print(touchLog)
+                                    # print("==============================\n\n\n")
 
                                     TouchLogs.remove(touchLog)
                                     eventToPlot.remove(event)

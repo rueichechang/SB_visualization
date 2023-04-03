@@ -54,14 +54,14 @@ if __name__ == "__main__":
                     for i in range(len(analysis[type])):
                         analysis[type][i] = analysis[type][i] / total_count
                 for type in analysis:
-                    fp.write(f"---------------{type}---------------\n")
-                    fp.write(f"Overall average delay is:{analysis[type][0]}\n")
-                    fp.write(f"Number of Miss Event: {analysis[type][1]}\n")
-                    fp.write(f"Number of Miss Touch: {analysis[type][2]}\n")
-                    fp.write(f"Number of Hit Correct Event: {analysis[type][3]}\n")
-                    fp.write(f"Number of Hit Error Event: {analysis[type][4]}\n")
-                    fp.write(f"Total number of event is: {analysis[type][5]}\n")
-                    fp.write(f"Hit Accuracy: {analysis[type][6]}\n")
+                    # fp.write(f"---------------{type}---------------\n")
+                    # fp.write(f"Overall average delay is:{analysis[type][0]}\n")
+                    # fp.write(f"Number of Miss Event: {analysis[type][1]}\n")
+                    # fp.write(f"Number of Miss Touch: {analysis[type][2]}\n")
+                    # fp.write(f"Number of Hit Correct Event: {analysis[type][3]}\n")
+                    # fp.write(f"Number of Hit Error Event: {analysis[type][4]}\n")
+                    # fp.write(f"Total number of event is: {analysis[type][5]}\n")
+                    # fp.write(f"Hit Accuracy: {analysis[type][6]}\n")
                     fp.write(f"-------------------------------------\n\n")
                 fp.write(f"==================================\n\n")
     fp.close()

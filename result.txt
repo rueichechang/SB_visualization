@@ -1,398 +1,314 @@
-<<<<<<<<<<<<<<<<<<scene1>>>>>>>>>>>>>>>>>>
-===============baseline===============
-
+===============scene1_baseline===============
 ---------------RW_FOCUS---------------
-Overall average delay is:0.2511190133333331
-Number of Miss Event: 4.4
-Number of Miss Touch: 4.4
-Number of Hit Correct Event: 0.6
-Number of Hit Error Event: 1.8
-Total number of event is: 5.0
-Hit Accuracy: 0.12
+Hit Accuracy: 0.8044444444444445
+Hit Error Rate: 0.10222222222222223
+Number of Miss Event: 0.9777777777777779
+Number of Miss Touch: 0.23333333333333334
+Overall average delay is:1.2139991212166663
 -------------------------------------
 
 ---------------VR_FOCUS---------------
-Overall average delay is:1.4911473113333331
-Number of Miss Event: 1.6
-Number of Miss Touch: 1.6
-Number of Hit Correct Event: 3.4
-Number of Hit Error Event: 0.8
-Total number of event is: 5.0
-Hit Accuracy: 0.68
+Hit Accuracy: 0.7022222222222223
+Hit Error Rate: 0.16666666666666663
+Number of Miss Event: 1.488888888888889
+Number of Miss Touch: 0.16666666666666669
+Overall average delay is:1.3681066070333332
 -------------------------------------
 
 ---------------RW_PERIPHERAL---------------
-Overall average delay is:2.476318904
-Number of Miss Event: 0.0
-Number of Miss Touch: 0.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 1.0
-Total number of event is: 5.0
-Hit Accuracy: 1.0
+Hit Accuracy: 0.9066666666666667
+Hit Error Rate: 0.02666666666666667
+Number of Miss Event: 0.4666666666666667
+Number of Miss Touch: 0.08888888888888889
+Overall average delay is:1.5754404013333336
 -------------------------------------
 
 ---------------VR_PERIPHERAL---------------
-Overall average delay is:1.2344075309999998
-Number of Miss Event: 0.8
-Number of Miss Touch: 0.8
-Number of Hit Correct Event: 4.2
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 0.8400000000000001
+Hit Accuracy: 0.7888888888888891
+Hit Error Rate: 0.11777777777777779
+Number of Miss Event: 1.0555555555555556
+Number of Miss Touch: 0.25555555555555554
+Overall average delay is:1.163462091537037
 -------------------------------------
 
 ==================================
 
-===============noise_cancellation===============
-
+===============scene1_noise_cancellation===============
 ---------------RW_FOCUS---------------
-Overall average delay is:1.5284174346666668
-Number of Miss Event: 1.2
-Number of Miss Touch: 1.2
-Number of Hit Correct Event: 3.8
-Number of Hit Error Event: 0.8
-Total number of event is: 5.0
-Hit Accuracy: 0.76
+Hit Accuracy: 0.9244444444444445
+Hit Error Rate: 0.06444444444444444
+Number of Miss Event: 0.3777777777777778
+Number of Miss Touch: 0.044444444444444446
+Overall average delay is:1.2824830039555553
 -------------------------------------
 
 ---------------VR_FOCUS---------------
-Overall average delay is:1.3276519180000004
+Hit Accuracy: 0.8133333333333332
+Hit Error Rate: 0.16666666666666666
+Number of Miss Event: 0.9333333333333333
+Number of Miss Touch: 0.23333333333333334
+Overall average delay is:1.3721168873962966
+-------------------------------------
+
+---------------RW_PERIPHERAL---------------
+Hit Accuracy: 0.7222222222222221
+Hit Error Rate: 0.008888888888888889
+Number of Miss Event: 1.3888888888888888
+Number of Miss Touch: 0.0
+Overall average delay is:1.4774445976703703
+-------------------------------------
+
+---------------VR_PERIPHERAL---------------
+Hit Accuracy: 0.7999999999999999
+Hit Error Rate: 0.13555555555555557
 Number of Miss Event: 1.0
-Number of Miss Touch: 1.0
-Number of Hit Correct Event: 4.0
-Number of Hit Error Event: 1.0
-Total number of event is: 5.0
-Hit Accuracy: 0.8
+Number of Miss Touch: 0.2777777777777778
+Overall average delay is:1.1470190767592592
+-------------------------------------
+
+==================================
+
+===============scene1_proxies_data===============
+---------------RW_FOCUS---------------
+Hit Accuracy: 0.9422222222222223
+Hit Error Rate: 0.035555555555555556
+Number of Miss Event: 0.28888888888888886
+Number of Miss Touch: 0.044444444444444446
+Overall average delay is:1.0551772199740739
+-------------------------------------
+
+---------------VR_FOCUS---------------
+Hit Accuracy: 0.8955555555555557
+Hit Error Rate: 0.10222222222222223
+Number of Miss Event: 0.5222222222222221
+Number of Miss Touch: 0.12222222222222223
+Overall average delay is:1.2727257252777777
 -------------------------------------
 
 ---------------RW_PERIPHERAL---------------
-Overall average delay is:3.66384951
-Number of Miss Event: 2.0
-Number of Miss Touch: 2.0
-Number of Hit Correct Event: 3.0
-Number of Hit Error Event: 0.0
-Total number of event is: 5.0
-Hit Accuracy: 0.6
+Hit Accuracy: 1.0
+Hit Error Rate: 0.02888888888888889
+Number of Miss Event: 0.0
+Number of Miss Touch: 0.0
+Overall average delay is:1.2451122609333334
 -------------------------------------
 
 ---------------VR_PERIPHERAL---------------
-Overall average delay is:1.1622101619999996
-Number of Miss Event: 0.4
-Number of Miss Touch: 0.4
-Number of Hit Correct Event: 4.6
-Number of Hit Error Event: 0.6
-Total number of event is: 5.0
+Hit Accuracy: 0.8377777777777777
+Hit Error Rate: 0.1
+Number of Miss Event: 0.7777777777777778
+Number of Miss Touch: 0.24444444444444446
+Overall average delay is:1.068597926907407
+-------------------------------------
+
+==================================
+
+===============scene3_baseline===============
+---------------RW_FOCUS---------------
+Hit Accuracy: 0.8755555555555554
+Hit Error Rate: 0.3555555555555555
+Number of Miss Event: 0.6222222222222222
+Number of Miss Touch: 0.0
+Overall average delay is:2.252379863111111
+-------------------------------------
+
+---------------VR_FOCUS---------------
+Hit Accuracy: 0.7523809523809524
+Hit Error Rate: 0.11428571428571427
+Number of Miss Event: 1.7333333333333334
+Number of Miss Touch: 0.0
+Overall average delay is:2.2643441774
+-------------------------------------
+
+---------------RW_PERIPHERAL---------------
+Hit Accuracy: 0.6844444444444444
+Hit Error Rate: 0.09333333333333334
+Number of Miss Event: 1.5777777777777777
+Number of Miss Touch: 0.022222222222222223
+Overall average delay is:1.9839022024814814
+-------------------------------------
+
+---------------VR_PERIPHERAL---------------
+Hit Accuracy: 0.26222222222222225
+Hit Error Rate: 0.04000000000000001
+Number of Miss Event: 3.688888888888889
+Number of Miss Touch: 0.044444444444444446
+Overall average delay is:1.4662895859259257
+-------------------------------------
+
+==================================
+
+===============scene3_noise_cancellation===============
+---------------RW_FOCUS---------------
+Hit Accuracy: 0.8044444444444444
+Hit Error Rate: 0.21777777777777776
+Number of Miss Event: 0.9777777777777779
+Number of Miss Touch: 0.0
+Overall average delay is:2.6100411853444445
+-------------------------------------
+
+---------------VR_FOCUS---------------
+Hit Accuracy: 0.7714285714285714
+Hit Error Rate: 0.09841269841269841
+Number of Miss Event: 1.6000000000000003
+Number of Miss Touch: 0.0
+Overall average delay is:2.6829730443629627
+-------------------------------------
+
+---------------RW_PERIPHERAL---------------
+Hit Accuracy: 0.4355555555555555
+Hit Error Rate: 0.09333333333333334
+Number of Miss Event: 2.822222222222222
+Number of Miss Touch: 0.1111111111111111
+Overall average delay is:1.6345539298592593
+-------------------------------------
+
+---------------VR_PERIPHERAL---------------
 Hit Accuracy: 0.9199999999999999
--------------------------------------
-
-==================================
-
-===============proxies_data===============
-
----------------RW_FOCUS---------------
-Overall average delay is:1.2642995789999998
-Number of Miss Event: 0.6
-Number of Miss Touch: 0.6
-Number of Hit Correct Event: 4.4
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 0.8799999999999999
--------------------------------------
-
----------------VR_FOCUS---------------
-Overall average delay is:1.3580432090000008
-Number of Miss Event: 0.4
-Number of Miss Touch: 0.4
-Number of Hit Correct Event: 4.6
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 0.9199999999999999
--------------------------------------
-
----------------RW_PERIPHERAL---------------
-Overall average delay is:1.1735618516000004
-Number of Miss Event: 0.0
+Hit Error Rate: 0.017777777777777778
+Number of Miss Event: 0.4000000000000001
 Number of Miss Touch: 0.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 1.0
--------------------------------------
-
----------------VR_PERIPHERAL---------------
-Overall average delay is:0.9729641149999994
-Number of Miss Event: 0.4
-Number of Miss Touch: 0.4
-Number of Hit Correct Event: 4.6
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 0.9199999999999999
+Overall average delay is:1.8018367366222223
 -------------------------------------
 
 ==================================
 
-<<<<<<<<<<<<<<<<<<scene3>>>>>>>>>>>>>>>>>>
-===============baseline===============
-
+===============scene3_proxies_data===============
 ---------------RW_FOCUS---------------
-Overall average delay is:3.1695480883333333
-Number of Miss Event: 1.8
-Number of Miss Touch: 1.8
-Number of Hit Correct Event: 3.2
-Number of Hit Error Event: 3.2
-Total number of event is: 5.0
-Hit Accuracy: 0.6399999999999999
--------------------------------------
-
----------------VR_FOCUS---------------
-Overall average delay is:1.946796997333335
-Number of Miss Event: 2.8
-Number of Miss Touch: 2.8
-Number of Hit Correct Event: 4.2
-Number of Hit Error Event: 1.6
-Total number of event is: 7.0
-Hit Accuracy: 0.6
--------------------------------------
-
----------------RW_PERIPHERAL---------------
-Overall average delay is:2.3882169500000003
-Number of Miss Event: 2.0
-Number of Miss Touch: 2.0
-Number of Hit Correct Event: 3.0
-Number of Hit Error Event: 0.2
-Total number of event is: 5.0
-Hit Accuracy: 0.6000000000000001
--------------------------------------
-
----------------VR_PERIPHERAL---------------
-Overall average delay is:2.6644148936666663
-Number of Miss Event: 1.8
-Number of Miss Touch: 1.8
-Number of Hit Correct Event: 3.2
-Number of Hit Error Event: 0.2
-Total number of event is: 5.0
-Hit Accuracy: 0.6399999999999999
--------------------------------------
-
-==================================
-
-===============noise_cancellation===============
-
----------------RW_FOCUS---------------
-Overall average delay is:3.1904658146666676
-Number of Miss Event: 1.0
-Number of Miss Touch: 1.0
-Number of Hit Correct Event: 4.0
-Number of Hit Error Event: 2.2
-Total number of event is: 5.0
-Hit Accuracy: 0.8
--------------------------------------
-
----------------VR_FOCUS---------------
-Overall average delay is:2.8697535097333344
-Number of Miss Event: 2.0
-Number of Miss Touch: 2.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 0.8
-Total number of event is: 7.0
-Hit Accuracy: 0.7142857142857143
--------------------------------------
-
----------------RW_PERIPHERAL---------------
-Overall average delay is:2.159814646666667
-Number of Miss Event: 2.0
-Number of Miss Touch: 2.0
-Number of Hit Correct Event: 3.0
-Number of Hit Error Event: 1.2
-Total number of event is: 5.0
-Hit Accuracy: 0.6
--------------------------------------
-
----------------VR_PERIPHERAL---------------
-Overall average delay is:1.818691651999999
-Number of Miss Event: 0.0
+Hit Accuracy: 0.8844444444444445
+Hit Error Rate: 0.3377777777777777
+Number of Miss Event: 0.5777777777777777
 Number of Miss Touch: 0.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 1.0
--------------------------------------
-
-==================================
-
-===============proxies_data===============
-
----------------RW_FOCUS---------------
-Overall average delay is:2.6426911825
-Number of Miss Event: 1.0
-Number of Miss Touch: 1.0
-Number of Hit Correct Event: 4.0
-Number of Hit Error Event: 2.6
-Total number of event is: 5.0
-Hit Accuracy: 0.8
+Overall average delay is:2.249251026977778
 -------------------------------------
 
 ---------------VR_FOCUS---------------
-Overall average delay is:3.332658336
-Number of Miss Event: 2.2
-Number of Miss Touch: 2.2
-Number of Hit Correct Event: 4.8
-Number of Hit Error Event: 1.4
-Total number of event is: 7.0
-Hit Accuracy: 0.6857142857142857
--------------------------------------
-
----------------RW_PERIPHERAL---------------
-Overall average delay is:1.330547455000001
-Number of Miss Event: 0.2
-Number of Miss Touch: 0.2
-Number of Hit Correct Event: 4.8
-Number of Hit Error Event: 0.0
-Total number of event is: 5.0
-Hit Accuracy: 0.96
--------------------------------------
-
----------------VR_PERIPHERAL---------------
-Overall average delay is:1.3628077959999985
-Number of Miss Event: 0.2
-Number of Miss Touch: 0.2
-Number of Hit Correct Event: 4.8
-Number of Hit Error Event: 0.0
-Total number of event is: 5.0
-Hit Accuracy: 0.96
--------------------------------------
-
-==================================
-
-<<<<<<<<<<<<<<<<<<scene2>>>>>>>>>>>>>>>>>>
-===============baseline===============
-
----------------RW_FOCUS---------------
-Overall average delay is:0.8293742399999988
-Number of Miss Event: 2.8
-Number of Miss Touch: 2.8
-Number of Hit Correct Event: 2.2
-Number of Hit Error Event: 0.0
-Total number of event is: 5.0
-Hit Accuracy: 0.44000000000000006
--------------------------------------
-
----------------VR_FOCUS---------------
-Overall average delay is:1.9668830272333337
-Number of Miss Event: 0.8
-Number of Miss Touch: 0.8
-Number of Hit Correct Event: 4.2
-Number of Hit Error Event: 3.0
-Total number of event is: 5.0
-Hit Accuracy: 0.8400000000000001
--------------------------------------
-
----------------RW_PERIPHERAL---------------
-Overall average delay is:1.6739217799999992
-Number of Miss Event: 2.4
-Number of Miss Touch: 2.4
-Number of Hit Correct Event: 2.6
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 0.52
--------------------------------------
-
----------------VR_PERIPHERAL---------------
-Overall average delay is:1.5792505030000001
-Number of Miss Event: 0.2
-Number of Miss Touch: 0.2
-Number of Hit Correct Event: 4.8
-Number of Hit Error Event: 0.2
-Total number of event is: 5.0
-Hit Accuracy: 0.96
--------------------------------------
-
-==================================
-
-===============noise_cancellation===============
-
----------------RW_FOCUS---------------
-Overall average delay is:0.22663599999999917
-Number of Miss Event: 4.8
-Number of Miss Touch: 4.8
-Number of Hit Correct Event: 0.2
-Number of Hit Error Event: 1.4
-Total number of event is: 5.0
-Hit Accuracy: 0.04
--------------------------------------
-
----------------VR_FOCUS---------------
-Overall average delay is:1.8523730075999996
-Number of Miss Event: 0.0
+Hit Accuracy: 0.7333333333333333
+Hit Error Rate: 0.13333333333333333
+Number of Miss Event: 1.8666666666666667
 Number of Miss Touch: 0.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 3.2
-Total number of event is: 5.0
-Hit Accuracy: 1.0
+Overall average delay is:2.3668373914185183
 -------------------------------------
 
 ---------------RW_PERIPHERAL---------------
-Overall average delay is:1.266748039999999
-Number of Miss Event: 4.6
-Number of Miss Touch: 4.6
-Number of Hit Correct Event: 0.4
-Number of Hit Error Event: 1.0
-Total number of event is: 5.0
-Hit Accuracy: 0.08
+Hit Accuracy: 0.9422222222222223
+Hit Error Rate: 0.05333333333333334
+Number of Miss Event: 0.288888888888889
+Number of Miss Touch: 0.022222222222222223
+Overall average delay is:1.5045468140444447
 -------------------------------------
 
 ---------------VR_PERIPHERAL---------------
-Overall average delay is:1.5140871400000002
-Number of Miss Event: 0.0
-Number of Miss Touch: 0.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 0.2
-Total number of event is: 5.0
-Hit Accuracy: 1.0
+Hit Accuracy: 0.9733333333333333
+Hit Error Rate: 0.008888888888888889
+Number of Miss Event: 0.13333333333333333
+Number of Miss Touch: 0.022222222222222223
+Overall average delay is:1.6692628818888882
 -------------------------------------
 
 ==================================
 
-===============proxies_data===============
-
+===============scene2_baseline===============
 ---------------RW_FOCUS---------------
-Overall average delay is:0.9837417359999998
-Number of Miss Event: 1.8
-Number of Miss Touch: 1.8
-Number of Hit Correct Event: 3.2
-Number of Hit Error Event: 0.4
-Total number of event is: 5.0
-Hit Accuracy: 0.64
+Hit Accuracy: 0.6488888888888887
+Hit Error Rate: 0.06888888888888889
+Number of Miss Event: 1.7555555555555555
+Number of Miss Touch: 0.0
+Overall average delay is:0.7736789888148142
 -------------------------------------
 
 ---------------VR_FOCUS---------------
-Overall average delay is:1.4669858413333343
-Number of Miss Event: 0.4
-Number of Miss Touch: 0.4
-Number of Hit Correct Event: 4.6
-Number of Hit Error Event: 2.2
-Total number of event is: 5.0
-Hit Accuracy: 0.9199999999999999
+Hit Accuracy: 0.9377777777777777
+Hit Error Rate: 0.34444444444444444
+Number of Miss Event: 0.3111111111111111
+Number of Miss Touch: 0.06666666666666667
+Overall average delay is:1.8636966143129632
 -------------------------------------
 
 ---------------RW_PERIPHERAL---------------
-Overall average delay is:1.5285728619999996
-Number of Miss Event: 1.0
-Number of Miss Touch: 1.0
-Number of Hit Correct Event: 4.0
-Number of Hit Error Event: 0.2
-Total number of event is: 5.0
-Hit Accuracy: 0.8
+Hit Accuracy: 0.82
+Hit Error Rate: 0.013333333333333332
+Number of Miss Event: 0.8999999999999999
+Number of Miss Touch: 0.0
+Overall average delay is:1.7513626246407408
 -------------------------------------
 
 ---------------VR_PERIPHERAL---------------
-Overall average delay is:0.9712988400000008
-Number of Miss Event: 0.0
+Hit Accuracy: 0.9666666666666666
+Hit Error Rate: 0.035555555555555556
+Number of Miss Event: 0.16666666666666666
 Number of Miss Touch: 0.0
-Number of Hit Correct Event: 5.0
-Number of Hit Error Event: 0.0
-Total number of event is: 5.0
-Hit Accuracy: 1.0
+Overall average delay is:1.1387213929444437
+-------------------------------------
+
+==================================
+
+===============scene2_noise_cancellation===============
+---------------RW_FOCUS---------------
+Hit Accuracy: 0.48666666666666675
+Hit Error Rate: 0.05111111111111111
+Number of Miss Event: 2.566666666666667
+Number of Miss Touch: 0.03333333333333334
+Overall average delay is:0.7251279113703706
+-------------------------------------
+
+---------------VR_FOCUS---------------
+Hit Accuracy: 0.9688888888888888
+Hit Error Rate: 0.41333333333333333
+Number of Miss Event: 0.15555555555555556
+Number of Miss Touch: 0.13333333333333333
+Overall average delay is:1.5149124381333336
+-------------------------------------
+
+---------------RW_PERIPHERAL---------------
+Hit Accuracy: 0.368888888888889
+Hit Error Rate: 0.08666666666666666
+Number of Miss Event: 3.155555555555556
+Number of Miss Touch: 0.06666666666666668
+Overall average delay is:1.3767815581481484
+-------------------------------------
+
+---------------VR_PERIPHERAL---------------
+Hit Accuracy: 0.9955555555555556
+Hit Error Rate: 0.0022222222222222222
+Number of Miss Event: 0.022222222222222223
+Number of Miss Touch: 0.0
+Overall average delay is:1.0951642428444446
+-------------------------------------
+
+==================================
+
+===============scene2_proxies_data===============
+---------------RW_FOCUS---------------
+Hit Accuracy: 0.7466666666666666
+Hit Error Rate: 0.04
+Number of Miss Event: 1.2666666666666666
+Number of Miss Touch: 0.0
+Overall average delay is:0.7380572912037038
+-------------------------------------
+
+---------------VR_FOCUS---------------
+Hit Accuracy: 0.9777777777777779
+Hit Error Rate: 0.2466666666666667
+Number of Miss Event: 0.1111111111111111
+Number of Miss Touch: 0.0
+Overall average delay is:1.4053476324962961
+-------------------------------------
+
+---------------RW_PERIPHERAL---------------
+Hit Accuracy: 0.8755555555555554
+Hit Error Rate: 0.02888888888888889
+Number of Miss Event: 0.6222222222222222
+Number of Miss Touch: 0.0
+Overall average delay is:1.5727727294333331
+-------------------------------------
+
+---------------VR_PERIPHERAL---------------
+Hit Accuracy: 0.991111111111111
+Hit Error Rate: 0.044444444444444446
+Number of Miss Event: 0.044444444444444446
+Number of Miss Touch: 0.0
+Overall average delay is:0.9706311279999998
 -------------------------------------
 
 ==================================
