@@ -350,6 +350,131 @@ class EachTrialResult:
                 eventToPlot.append(df[clipName])
         return eventToPlot
 
+    def overlapCheck(self, event1, event2):
+        start1  = datetime_to_float(event1["Start"])
+        end1    = datetime_to_float(event1["Finish"])
+        start2  = datetime_to_float(event2["Start"])
+        end2    = datetime_to_float(event2["Finish"])
+        interval1 = pd.Interval(start1, end1)
+        interval2 = pd.Interval(start2, end2)
+        return interval1.overlaps(interval2)
+        # str = 'yes' if result else 'no'
+        # start1 = datetime_to_float(event1["Start"])
+        # end1 = datetime_to_float(event1["Finish"])
+        # start2 = datetime_to_float(event2["Finish"])
+        # end2 = datetime_to_float(event2["Finish"])
+        # return  start1<end2 and start2<end1
+
+    def dictForMixedAnalysis(self, input_event, Success, SoundType, Delay=0 ):
+        temp = {}
+        temp['Success'] = Success
+        temp['Delay'] = Delay 
+        temp['SoundType'] = SoundType
+        temp['NumOfOverlaps'] = 0
+        temp['OverlapRWVR'] = []
+        temp['OverlapFP'] = []
+
+        # print(len(self.eventToPlot))
+        for event in self.eventToPlot:
+            if self.overlapCheck(input_event, event):
+                temp['NumOfOverlaps'] += 1
+                eventType = event["Resource"]
+                if 'RW' in eventType: temp['OverlapRWVR'].append('RW')
+                if 'VR' in eventType: temp['OverlapRWVR'].append('VR')
+                if 'FOCUS' in eventType: temp['OverlapFP'].append('F')
+                if 'PERIPHERAL' in eventType: temp['OverlapFP'].append('P')
+        
+        if len(temp['OverlapRWVR']) ==0: temp['OverlapRWVR'] = None
+        elif 'RW' in temp['OverlapRWVR'] and 'VR' in temp['OverlapRWVR']: temp['OverlapRWVR'] = "RW+VR"
+        elif 'RW' in temp['OverlapRWVR'] and 'VR' not in temp['OverlapRWVR']: temp['OverlapRWVR'] = "RW"
+        elif 'RW' not in temp['OverlapRWVR'] and 'VR' in temp['OverlapRWVR']: temp['OverlapRWVR'] = "VR"
+        
+        if len(temp['OverlapFP']) ==0: temp['OverlapFP']= None
+        elif 'F' in temp['OverlapFP'] and 'P' in temp['OverlapFP']: temp['OverlapFP'] = "F+P"
+        elif 'F' in temp['OverlapFP'] and 'P' not in temp['OverlapFP']: temp['OverlapFP'] = "F"
+        elif 'F' not in temp['OverlapFP'] and 'P' in temp['OverlapFP']: temp['OverlapFP'] = "P"
+
+        # if temp['NumOfOverlaps'] == 0:
+        #     print("no overlap", input_event)
+        return temp
+
+    def outputForMixedAnalysis(self):
+        temp = []
+        with open(self.path) as json_file:
+            data = json.load(json_file)
+            TouchLogs = data["TouchLogs"]
+            eventToPlot = copy.deepcopy(self.eventToPlot)
+        while len(TouchLogs):
+            for touchLog in TouchLogs:
+                touchTime = touchLog["touchTime"]
+                touchEvent = touchLog["singleOrDouble"]
+                playingObjects = [returnRealName(x) for x in touchLog["playingObjects"]]
+
+                if len(playingObjects) == 0:
+                    # self.MISS_TOUCH_COUNT += 1
+                    # self.countOnTypeMissTouch(EventMap[touchEvent])
+                    TouchLogs.remove(touchLog)
+                    break
+
+                else:
+                    collectedTouchEvents = [KeyMap[x] for x in playingObjects]
+                    if touchEvent not in collectedTouchEvents:
+                        # self.HIT_ERROR_COUNT += 1
+                        # self.countOnTypeWithError(EventMap[touchEvent])
+                        TouchLogs.remove(touchLog)
+                        break
+                    for playingObject in playingObjects:
+                        if KeyMap[playingObject] == touchEvent:
+                            eventStillExist = False
+                            for event in eventToPlot:
+                                start = datetime_to_float(event["Start"])
+                                end = datetime_to_float(event["Finish"])
+                                clipName = event["Task"]
+                                category = event["Resource"]
+                                if (
+                                    touchTime >= start
+                                    and touchTime <= end
+                                    and playingObject == clipName
+                                ):
+                                    eventStillExist = True
+
+                            if not eventStillExist:
+                                # self.HIT_ERROR_COUNT += 1
+                                # self.countOnTypeWithError(EventMap[touchEvent])
+                                TouchLogs.remove(touchLog)
+                                break
+                            for event in eventToPlot:
+                                start = datetime_to_float(event["Start"])
+                                end = datetime_to_float(event["Finish"])
+                                clipName = event["Task"]
+                                category = event["Resource"]
+                                if (
+                                    touchTime >= start
+                                    and touchTime <= end
+                                    and playingObject == clipName
+                                ):
+                                    delay = abs(
+                                        touchTime - datetime_to_float(event["Start"])
+                                    )
+                                    # self.addDelayBasedOnType(category, delay)
+                                    # self.HIT_CORRECT_COUNT += 1
+                                    # self.countOnType(category)
+
+                                    temp.append(self.dictForMixedAnalysis(event, 1, category, delay))
+
+                                    TouchLogs.remove(touchLog)
+                                    eventToPlot.remove(event)
+                                    break
+                            break
+        # self.MISS_EVENT_COUNT = len(eventToPlot)
+        for event in eventToPlot:
+            # self.countOnTypeMissEvent(event["Resource"])
+            category = event["Resource"]
+            temp.append(self.dictForMixedAnalysis(event, 0, category, Delay=0))
+
+
+        return temp
+
     def calculateResultsByKey(self):
         with open(self.path) as json_file:
             data = json.load(json_file)
