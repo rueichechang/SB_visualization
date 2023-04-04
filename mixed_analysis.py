@@ -2,13 +2,18 @@ import statsmodels.formula.api as smf
 import pandas as pd
 import glob, os, copy
 from generate_analysis import EachTrialResult
+import researchpy as rp
+from statsmodels.sandbox.stats.multicomp import multipletests
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
 
 sighted_folder = "/Users/rueichechang/Documents/SB_visualization/sighted/"
 blind_folder = "/Users/rueichechang/Documents/SB_visualization/blind/"
 
 ID = [str(i) for i in range(1,10)]
 scenes = ['scene1', 'scene2', 'scene3']
-conditions = ['baseline', 'noise_cancellation', 'proxies_data']
+conditions = ['proxies_data','baseline', 'noise_cancellation']
 loggers = ['logger_0', 'logger_1', 'logger_2', 'logger_3', 'logger_4']
 
 header = [
@@ -25,6 +30,7 @@ header = [
     'NumOfOverlaps',
     'OverlapRWVR',
     'OverlapFP',
+    'VisualFeedback'
 ]
 
 
@@ -82,13 +88,63 @@ def getAvgNumOfOverlaps(df):
     print(NC_OVERLAP_NUM/NC_NUM)
     print(SB_OVERLAP_NUM/SB_NUM)
 
+
+
 if __name__ == "__main__":
+
+    # pvalues = [0.048, 0.099, 0.96]
+   
     # df = pd.DataFrame(columns = header)
     # df = create_csv(df, blind_folder, "blind")
     # df = create_csv(df, sighted_folder, "sighted")
     # df.to_csv('soundblender.csv',index=True)
 
     soundblender = pd.read_csv('soundblender.csv')    
-    model = smf.mixedlm('Success ~ NumOfOverlaps', data = soundblender, groups = 'RandomInterceptByID')
+    soundblender.info()
+    print(rp.summary_cont(soundblender.groupby(["BlindOrSighted", "Condition", "Scene"])["Success"]))
+
+    # model = ols("Success ~ C(BlindOrSighted) + C(Scene) + C(Condition)+ TrialNumber", data=soundblender).fit()
+    # print(model.summary())
+
+
+    model = sm.MixedLM.from_formula('Success ~ C(BlindOrSighted) + C(Scene) + C(Condition) + C(SoundType) + C(Scene):C(BlindOrSighted) + C(Condition):C(BlindOrSighted) + C(Scene):C(Condition) + C(Condition):C(SoundType) + TrialNumber', data = soundblender, groups = 'RandomInterceptByID')
+
+    contrast_matrix = [[1, -1, 0], [1, 0, -1]]
+    contrast_names = ["proxies_data vs. noise_cancellation", "proxies_data vs. baseline"]
+
     result = model.fit()
     print(result.summary())
+
+    pairwise_results = result.t_test_pairwise(contrast_matrix, method="t-test")
+    print(pairwise_results.summary())
+
+
+    
+
+   
+
+
+    # tukey = pairwise_tukeyhsd(endog=soundblender['Success'], groups=soundblender['Condition'], alpha=0.05)
+    # print(tukey.summary())
+
+  
+    # rejected, p_adjusted, _, alpha_corrected = multipletests(tukey.pvalues, alpha=0.05/3, 
+    #                            method='bonferroni', is_sorted=False, returnsorted=False)
+    # print("alpha_corrected:", alpha_corrected)
+    # print("p_adjusted:", p_adjusted)
+
+
+
+    # model = smf.mixedlm('Success ~ C(BlindOrSighted) + C(Scene) + C(Condition, Treatment("noise_cancellation")) + C(SoundType) + C(Scene):C(BlindOrSighted) + C(Condition, Treatment("noise_cancellation")):C(BlindOrSighted) + C(Scene):C(Condition, Treatment("noise_cancellation")) + C(Condition, Treatment("noise_cancellation")):C(SoundType) + TrialNumber', data = soundblender, groups = 'RandomInterceptByID')
+                        
+    # result = model.fit()
+    # print("result.pvalues", result.pvalues)
+    # print(result.summary())
+
+    # soundblender = pd.read_csv('soundblender.csv')    
+    # soundblender.info()
+    # print(rp.summary_cont(soundblender.groupby(["BlindOrSighted", "Condition", "Scene"])["Success"]))
+    # model = smf.mixedlm('Success ~ C(BlindOrSighted) + C(Scene) + C(Condition, Treatment("proxies_data")) + C(SoundType) + C(Scene):C(BlindOrSighted) + C(Condition, Treatment("proxies_data")):C(BlindOrSighted) + C(Scene):C(Condition, Treatment("proxies_data")) + C(Condition, Treatment("proxies_data")):C(SoundType) + TrialNumber', data = soundblender, groups = 'RandomInterceptByID')
+                        
+    # result = model.fit()
+    # print(result.summary())

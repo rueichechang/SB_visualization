@@ -25,6 +25,27 @@ GestureMap = {}
 
 EventMap = {ONE: RW_FOCUS, TWO: VR_FOCUS, THREE: RW_PERIPHERAL, FOUR: VR_PERIPHERAL}
 
+
+VisualFeedback =[
+    "whiteCaneStone",
+    "whiteCane",
+    "constructionNoise",
+    "cartoonDrilling",
+    "knocking",
+    "doga",
+    "benko",
+    "vlk",
+    "patrick",
+    "steve",
+    "michael",
+    "justine",
+    "xu",
+    "anhong",
+    "obama",
+    "ariel",
+    "laura",
+]
+
 KeyMap = {
     "whiteCaneStone": ONE,
     "whiteCane": ONE,
@@ -87,7 +108,7 @@ def returnRealName(name):
         name = "constructionNoise"
 
     if "doga" in name:
-        name = "anhong"
+        name = "doga"
     if "anhong" in name:
         name = "anhong"
     if "benko" in name:
@@ -373,6 +394,7 @@ class EachTrialResult:
         temp['NumOfOverlaps'] = 0
         temp['OverlapRWVR'] = []
         temp['OverlapFP'] = []
+        # temp['VisualFeedback'] = 1 if input_event['Task'] in VisualFeedback else 0
 
         # print(len(self.eventToPlot))
         for event in self.eventToPlot:
