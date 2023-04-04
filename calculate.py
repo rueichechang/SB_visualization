@@ -85,7 +85,7 @@ def returnRealName(name):
         name = "constructionNoise"
 
     if "doga" in name:
-        name = "anhong"
+        name = "doga"
     if "anhong" in name:
         name = "anhong"
     if "benko" in name:
